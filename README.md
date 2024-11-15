@@ -8,4 +8,3 @@
 ## DESIGN
 
 1. 👤[**User Flow Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWh3ikJBI/IfB1sxdotmGhY4j7Cj2yTA/edit?utm_content=DAGWh3ikJBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-2. 
