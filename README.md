@@ -14,6 +14,8 @@
 
 ## Daftar Isi
 1.   [Introduction](#Introduction)
+2.   [Filosofi](#Filosofi)
+3.   [Latar Belakang](#Latar-Belakang)
 
 ---
 
@@ -23,3 +25,14 @@ D'GARAGE adalah aplikasi mobile yang dirancang untuk mempermudah pemilik mobil d
 Dengan D'GARAGE, pengguna dapat terhubung langsung dengan penyedia jasa perawatan mobil profesional yang siap menangani berbagai kebutuhan, mulai dari perawatan rutin, diagnostik, hingga perbaikan darurat.
 
 Melalui antarmuka yang user-friendly dan fitur yang transparan, D'GARAGE menjadikan pengalaman merawat mobil lebih efisien. Komitmen kami adalah memberikan layanan terpercaya yang membuat kendaraan Anda selalu dalam kondisi prima.
+
+Aplikasi ini dibuat dan dikembangkan sebagai bagian dari mata kuliah Pemograman Mobile 1 yang diampu oleh Bapak Donny Maulana, S.Kom., M.M.S.I., di Universitas Pelita Bangsa. Dibuat oleh Defri Lugas Hidayat (NIM 312310272).
+
+Aplikasi ini dibuat untuk memberikan kemudahan kepada para pengguna kendaraan roda empat dalam mengakses layanan servis mobil secara cepat, praktis, transparan dan terpercaya. 
+
+### Filosofi
+Di D'GARAGE, kami percaya bahwa merawat kendaraan seharusnya menjadi pengalaman yang mudah dan menyenangkan. Mobil bukan hanya alat transportasi, tetapi aset berharga yang memerlukan perhatian tepat waktu dan perawatan berkualitas. Filosofi kami sederhana: memberikan akses yang mudah, cepat, dan transparan kepada pemilik mobil untuk layanan servis yang terpercaya.
+
+### Latar Belakang
+Dalam dunia yang semakin modern dan dinamis, kebutuhan akan layanan servis kendaraan yang cepat, mudah, dan terpercaya semakin meningkat. Pemilik kendaraan sering menghadapi tantangan dalam menemukan penyedia jasa servis yang profesional dan transparan, yang dapat memberikan layanan berkualitas tanpa membuang waktu berharga.
+Di sinilah D'GARAGE hadir sebagai solusi. Aplikasi ini dikembangkan dengan tujuan utama mempermudah akses pemilik mobil ke berbagai layanan perawatan dan perbaikan. Dari perawatan rutin, diagnostik masalah, hingga penanganan perbaikan darurat, D'GARAGE menghubungkan pengguna dengan bengkel dan teknisi berpengalaman melalui platform yang mudah digunakan.
