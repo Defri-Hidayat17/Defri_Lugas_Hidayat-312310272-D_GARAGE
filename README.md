@@ -18,3 +18,8 @@
 ---
 
 ### Introduction
+D'GARAGE adalah aplikasi mobile yang dirancang untuk mempermudah pemilik mobil dalam mengakses layanan servis secara cepat dan praktis. Kami memahami bahwa merawat kendaraan bukan hanya sekadar kebutuhan, tetapi juga bagian penting dari menjaga aset berharga Anda tetap dalam kondisi optimal. 
+
+Dengan D'GARAGE, pengguna dapat terhubung langsung dengan penyedia jasa perawatan mobil profesional yang siap menangani berbagai kebutuhan, mulai dari perawatan rutin, diagnostik, hingga perbaikan darurat.
+
+Melalui antarmuka yang user-friendly dan fitur yang transparan, D'GARAGE menjadikan pengalaman merawat mobil lebih efisien. Komitmen kami adalah memberikan layanan terpercaya yang membuat kendaraan Anda selalu dalam kondisi prima.
