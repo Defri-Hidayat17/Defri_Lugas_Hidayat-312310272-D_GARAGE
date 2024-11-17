@@ -7,8 +7,9 @@
 
 ## DESIGN
 
-1. 📃 [**StoryBoard - Mockup - UI Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWYD8YIsU/iJa5ole_W6GlXIe_58tdMw/edit?utm_content=DAGWYD8YIsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-2. 👤 [**User Flow Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWh3ikJBI/IfB1sxdotmGhY4j7Cj2yTA/edit?utm_content=DAGWh3ikJBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+1. 📃 [**StoryBoard - Mockup Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWYD8YIsU/iJa5ole_W6GlXIe_58tdMw/edit?utm_content=DAGWYD8YIsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+2. 📚 [**UI Design Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWweHaGdY/IvB4VpYIIy4EDe0O9Dk-ug/edit?utm_content=DAGWweHaGdY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+3. 👤 [**User Flow Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWh3ikJBI/IfB1sxdotmGhY4j7Cj2yTA/edit?utm_content=DAGWh3ikJBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
