@@ -17,6 +17,8 @@
 1.   [Introduction](#Introduction)
 2.   [Filosofi](#Filosofi)
 3.   [Latar Belakang](#Latar-Belakang)
+4.   not finished yet
+
 
 ---
 
