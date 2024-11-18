@@ -17,7 +17,10 @@
 1.   [Introduction](#Introduction)
 2.   [Filosofi](#Filosofi)
 3.   [Latar Belakang](#Latar-Belakang)
-4.   not finished yet
+4.   [Tujuan](#Tujuan)
+5.   [Nama dan Package Aplikasi](Nama-dan-Package-Aplikasi)
+6.   [Palet Warna](#Palet-Warna)
+7.   [Logo](#Logo)
 
 
 ---
