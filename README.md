@@ -38,4 +38,25 @@ Di D'GARAGE, kami percaya bahwa merawat kendaraan seharusnya menjadi pengalaman 
 
 ### Latar Belakang
 Dalam dunia yang semakin modern dan dinamis, kebutuhan akan layanan servis kendaraan yang cepat, mudah, dan terpercaya semakin meningkat. Pemilik kendaraan sering menghadapi tantangan dalam menemukan penyedia jasa servis yang profesional dan transparan, yang dapat memberikan layanan berkualitas tanpa membuang waktu berharga.
-Di sinilah D'GARAGE hadir sebagai solusi. Aplikasi ini dikembangkan dengan tujuan utama mempermudah akses pemilik mobil ke berbagai layanan perawatan dan perbaikan. Dari perawatan rutin, diagnostik masalah, hingga penanganan perbaikan darurat, D'GARAGE menghubungkan pengguna dengan bengkel dan teknisi berpengalaman melalui platform yang mudah digunakan.
+Di sinilah D'GARAGE hadir sebagai solusi.
+
+### Tujuan
+Aplikasi ini dikembangkan dengan tujuan utama mempermudah akses pemilik mobil ke berbagai layanan perawatan dan perbaikan. Dari perawatan rutin, diagnostik masalah, hingga penanganan perbaikan darurat, D'GARAGE menghubungkan pengguna dengan bengkel dan teknisi berpengalaman melalui platform yang mudah digunakan.
+
+### Nama dan Package Aplikasi
+- **Nama Aplikasi** : D'GARAGE
+- **Nama Package** : `com.deeyat.d_garage`
+
+### Palet Warna
+Aplikasi D'GARAGE dirancang menggunakan palet warna yang memberikan kesan profesional dan user friendly
+- **Warna Utama** :
+  - Hitam (#000000) : kekuatan, dan profesionalisme. Dalam dunia desain dan mode, hitam melambangkan kesederhanaan yang elegan.
+  - Putih (#FFFFFF) : Latar belakang bersih dan modern yang memfokuskan perhatian pengguna pada konten.
+  - Merah (#FF0000) : Memberikan daya tarik visual yang kuat dalam desain grafis atau aplikasi.
+  - Abu-abu (#EEEEEE) : Warna ini memberikan kesan futuristik, minimalis, dan profesional.
+- **Warna Text** :
+  - Hitam (#000000) : Membuat teks terlihat jelas dan mudah dibaca.
+  - Putih (#FFFFFF) : Menciptakan kontras yang nyaman.
+
+### Logo
+**Konsep** : Lingkaran hitam yang dapat diartikan bahwa Bengkel kami memiliki kesan profesional dan solid. Objek mobil yang berada di tengah antara goresan merah putih yang memiliki arti Pembaruan dan pemeliharaan mobil anda secara berkala.
