@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#EEEEEE"> <!-- Warna ripple merah -->
+
+    <!-- Mask untuk efek ripple -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFCCCC"/> <!-- Warna lebih terang untuk efek -->
+            <corners android:radius="30dp"/> <!-- Radius sudut ripple -->
+        </shape>
+    </item>
+
+    <!-- Latar belakang tombol -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF0000"/> <!-- Warna dasar tombol -->
+            <corners android:radius="30dp"/> <!-- Radius sudut tombol -->
+        </shape>
+    </item>
+
+    <!-- Efek inset tambahan -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/> <!-- Latar transparan -->
+            <corners android:radius="30dp"/> <!-- Radius sudut -->
+            <inset
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"
+                android:bottom="0dp" /> <!-- Inset untuk tambahan efek -->
+        </shape>
+    </item>
+
+    <!-- Item tambahan untuk sudut dan efek ripple dari file pertama -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:radius="10dp"/> <!-- Radius sudut -->
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="8dp"/>
+            <inset
+                android:left="0dp"
+                android:right="0dp"
+                android:top="-10dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+
+</ripple>

@@ -1,0 +1,201 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftar_akun_page"
+    android:background="@drawable/verifikasi_wa_sms">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/back"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="382dp"
+        android:layout_height="447dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.809"
+        app:srcCompat="@drawable/kotak_putih_a" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Buat Akun Anda"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <EditText
+        android:id="@+id/inputPhone"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/telephone"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="No. Handphone"
+        android:inputType="phone"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#555555"
+        android:textColorHint="#B0B0B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/lock"
+        android:drawableRight="@drawable/eye_off"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#555555"
+        android:textColorHint="#B0B0B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPhone"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/criteria_min_length"
+        android:layout_width="319dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:drawableRight="@drawable/centang"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Minimal 8 karakter"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/inputPassword"
+        app:layout_constraintTop_toBottomOf="@id/inputPassword" />
+
+    <TextView
+        android:id="@+id/criteria_uppercase"
+        android:layout_width="319dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:drawableRight="@drawable/centang"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Huruf besar"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/inputPassword"
+        app:layout_constraintTop_toBottomOf="@id/criteria_min_length" />
+
+    <TextView
+        android:id="@+id/criteria_lowercase"
+        android:layout_width="319dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:drawableRight="@drawable/centang"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Huruf kecil"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/inputPassword"
+        app:layout_constraintTop_toBottomOf="@id/criteria_uppercase" />
+
+    <TextView
+        android:id="@+id/criteria_number"
+        android:layout_width="319dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:drawableRight="@drawable/centang"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Angka"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/inputPassword"
+        app:layout_constraintTop_toBottomOf="@id/criteria_lowercase" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="96dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Saya menyetujui penyimpanan dan penggunaan data pribadi saya serta menyetujui ketentuan layanan dan kebijakan privasi "
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword"
+        app:layout_constraintVertical_bias="0.451" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword"
+        app:layout_constraintVertical_bias="0.456"
+        app:srcCompat="@drawable/kotak"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:background="@drawable/daftar_button_ripple"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Daftar"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.1" />
+
+
+</android.support.constraint.ConstraintLayout>

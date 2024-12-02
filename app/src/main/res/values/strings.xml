@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">D\'GARAGE</string>
+    <string-array name="negara_list">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapura</item>
+        <item>Thailand</item>
+        <item>Filipina</item>
+        <item>Brunei Darussalam</item>
+        <item>Vietnam</item>
+        <item>Laos</item>
+        <item>Kamboja</item>
+        <item>Myanmar</item>
+    </string-array>
+
+    <string-array name="negara_codes">
+        <item>+62</item>
+        <item>+60</item>
+        <item>+65</item>
+        <item>+66</item>
+        <item>+63</item>
+        <item>+673</item>
+        <item>+84</item>
+        <item>+856</item>
+        <item>+855</item>
+        <item>+95</item>
+    </string-array>
+    <string name="flag_icon">Icon Bendera</string>
+
 </resources>

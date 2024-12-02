@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/holo_blue_dark"> <!-- Warna ripple -->
+
+    <!-- Latar belakang gradasi -->
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="#8739E5"
+                        android:centerColor="#7E64FF"
+                        android:endColor="#00FBFF"
+                        android:angle="90">
+                        <item android:offset="0.0" android:color="#8739E5"/>
+                        <item android:offset="0.25" android:color="#7E64FF"/>
+                        <item android:offset="0.5" android:color="#11A9EA"/>
+                        <item android:offset="0.75" android:color="#16E0C1"/>
+                        <item android:offset="1.0" android:color="#00FBFF"/>
+                    </gradient>
+                    <corners android:radius="18dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Mask untuk efek ripple -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:radius="18dp"/> <!-- Radius sudut ripple -->
+        </shape>
+    </item>
+</ripple>
