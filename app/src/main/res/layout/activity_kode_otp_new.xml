@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kode_otp"
+    tools:context=".kode_otp_new"
     android:background="@drawable/verifikasi_wa_sms">
 
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ripple_gray"
@@ -23,21 +23,22 @@
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView2"
         android:layout_width="378dp"
         android:layout_height="451dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1"
+        app:layout_constraintVertical_bias="0.81"
         app:srcCompat="@drawable/kotak_putih_a" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="316dp"
         android:fontFamily="@font/lexend_deca"
         android:text="Verifikasi Nomor Telepon Anda"
         android:textColor="@color/black"
@@ -47,13 +48,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.281" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="322dp"
+        android:id="@+id/textView3"
+        android:layout_width="316dp"
         android:layout_height="38dp"
+        android:layout_marginBottom="360dp"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
         android:text="Kami telah mengirimkan kode OTP via WhatsApp dan sms ke nomor Anda"
@@ -63,8 +65,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView13"
@@ -74,11 +76,11 @@
         android:text="Masukkan kode OTP"
         android:textColor="@color/black"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/inputkodeotp3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.36" />
 
     <EditText
         android:id="@+id/inputkodeotp"
@@ -222,18 +224,16 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginBottom="48dp"
         android:background="@drawable/button_masuk_red"
         android:fontFamily="@font/lexend_deca"
         android:text="Verifikasi"
         android:textColor="@android:color/white"
         android:textSize="17sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.527" />
-
+        app:layout_constraintVertical_bias="0.59" />
 </android.support.constraint.ConstraintLayout>

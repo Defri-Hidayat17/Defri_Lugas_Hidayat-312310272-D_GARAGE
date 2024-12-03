@@ -32,7 +32,7 @@ public class verifikasi_berhasil extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Navigasi ke halaman kode_otp
-                Intent intent = new Intent(verifikasi_berhasil.this, kode_otp.class);  // Ganti dengan kode_otp
+                Intent intent = new Intent(verifikasi_berhasil.this, kode_otp_new.class);  // Ganti dengan kode_otp
                 startActivity(intent);
                 finish();  // Menutup activity ini setelah navigasi
             }

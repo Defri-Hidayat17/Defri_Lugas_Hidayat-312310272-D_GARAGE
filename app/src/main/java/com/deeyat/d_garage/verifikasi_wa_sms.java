@@ -37,7 +37,7 @@ public class verifikasi_wa_sms extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Intent untuk membuka halaman kode_otp
-                Intent intent = new Intent(verifikasi_wa_sms.this, kode_otp.class);
+                Intent intent = new Intent(verifikasi_wa_sms.this, kode_otp_new.class);
                 intent.putExtra("verifikasi_metode", "WhatsApp"); // Mengirimkan data WhatsApp
                 startActivity(intent);
             }
@@ -48,7 +48,7 @@ public class verifikasi_wa_sms extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Intent untuk membuka halaman kode_otp
-                Intent intent = new Intent(verifikasi_wa_sms.this, kode_otp.class);
+                Intent intent = new Intent(verifikasi_wa_sms.this, kode_otp_new.class);
                 intent.putExtra("verifikasi_metode", "SMS"); // Mengirimkan data SMS
                 startActivity(intent);
             }

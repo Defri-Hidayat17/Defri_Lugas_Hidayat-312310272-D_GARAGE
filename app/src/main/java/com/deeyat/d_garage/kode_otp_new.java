@@ -10,14 +10,15 @@ import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class kode_otp extends AppCompatActivity {
+public class kode_otp_new extends AppCompatActivity {
 
     private TextView btnKirimUlang;  // Mengubah btnKirimUlang menjadi TextView
     private CountDownTimer countDownTimer;
-    private TextView textView12; // Referensi untuk textView12
+    private TextView textView3; // Referensi untuk textView3
     private boolean isTimerRunning = false; // Flag untuk mengecek status timer
 
     // Durasi countdown (2 menit = 120 detik = 120000 ms)
@@ -29,17 +30,17 @@ public class kode_otp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kode_otp);
+        setContentView(R.layout.activity_kode_otp_new);
 
         // Inisialisasi tombol back
-        ImageButton imageButton10 = findViewById(R.id.imageButton10);
+        ImageButton imageButton1 = findViewById(R.id.imageButton1);
 
         // Menambahkan listener untuk tombol back
-        imageButton10.setOnClickListener(new View.OnClickListener() {
+        imageButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Membuka halaman verifikasi_wa_sms
-                Intent intent = new Intent(kode_otp.this, verifikasi_wa_sms.class);
+                // Membuka halaman sebelumnya
+                Intent intent = new Intent(kode_otp_new.this, verifikasi_wa_sms.class);
                 startActivity(intent);
                 // Menyelesaikan activity ini, sehingga pengguna tidak bisa kembali ke halaman ini menggunakan tombol back
                 finish();
@@ -47,7 +48,7 @@ public class kode_otp extends AppCompatActivity {
         });
 
         // Mendapatkan referensi ke TextView untuk status verifikasi
-        textView12 = findViewById(R.id.textView12);
+        textView3 = findViewById(R.id.textView3);
 
         // Mendapatkan data dari Intent untuk menentukan metode verifikasi
         String verifikasiMetode = getIntent().getStringExtra("verifikasi_metode");
@@ -83,7 +84,7 @@ public class kode_otp extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Navigasi ke halaman verifikasi_berhasil
-                Intent intent = new Intent(kode_otp.this, verifikasi_berhasil.class);
+                Intent intent = new Intent(kode_otp_new.this, verifikasi_berhasil.class);
                 startActivity(intent);  // Mulai aktivitas VerifikasiBerhasil
                 finish();  // Optional: Menutup aktivitas ini setelah navigasi (agar pengguna tidak bisa kembali)
             }
@@ -130,6 +131,6 @@ public class kode_otp extends AppCompatActivity {
         spannableString.setSpan(new ForegroundColorSpan(Color.RED), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         // Set spannableString ke TextView
-        textView12.setText(spannableString);
+        textView3.setText(spannableString);
     }
 }
