@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tentang_kami">
+
+    <android.widget.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.widget.LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Text dan EditText pertama -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 1"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 1" />
+
+            <!-- Text dan EditText kedua -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 2"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 2" />
+
+            <!-- Text dan EditText ketiga -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 3"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 3" />
+
+            <!-- Text dan EditText keempat -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 4"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 4" />
+
+            <!-- Text dan EditText kelima -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 5"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 5" />
+
+            <!-- Text dan EditText keenam -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 6"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 6" />
+
+            <!-- Text dan EditText ketujuh -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 7"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 7" />
+
+            <!-- Text dan EditText kedelapan -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 8"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 8" />
+
+            <!-- Text dan EditText kesembilan -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 9"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 9" />
+
+            <!-- Text dan EditText kesepuluh -->
+            <android.widget.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text 10"
+                android:padding="10dp" />
+
+            <android.widget.EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="EditText 10" />
+
+        </android.widget.LinearLayout>
+    </android.widget.ScrollView>
+
+</android.support.constraint.ConstraintLayout>
