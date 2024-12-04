@@ -12,6 +12,7 @@ public class pengaturan_akun extends AppCompatActivity {
 
     private boolean isTrackOn = false;  // Menyimpan status switch pertama
     private boolean isTrack2On = false; // Menyimpan status switch kedua
+    private boolean isTrack3On = false; // Menyimpan status switch ketiga
     private SharedPreferences sharedPreferences;
 
     @Override
@@ -25,6 +26,7 @@ public class pengaturan_akun extends AppCompatActivity {
         // Memuat status terakhir dari SharedPreferences
         isTrackOn = sharedPreferences.getBoolean("track1Status", false);
         isTrack2On = sharedPreferences.getBoolean("track2Status", false);
+        isTrack3On = sharedPreferences.getBoolean("track3Status", false);
 
         // Inisialisasi ImageButton untuk navigasi
         ImageButton imageButton9 = findViewById(R.id.imageButton9);
@@ -47,10 +49,14 @@ public class pengaturan_akun extends AppCompatActivity {
         final ImageView trackImageView2 = findViewById(R.id.imageView15);
         final ImageView thumbImageView2 = findViewById(R.id.imageView21);
 
+        // Inisialisasi ImageView untuk track dan thumb ketiga
+        final ImageView trackImageView3 = findViewById(R.id.imageView16);
+        final ImageView thumbImageView3 = findViewById(R.id.imageView24);
+
         // Atur gambar dan posisi awal switch pertama
         if (isTrackOn) {
             trackImageView.setImageResource(R.drawable.track_on);
-            thumbImageView.setTranslationX(83f);
+            thumbImageView.setTranslationX(75f);
         } else {
             trackImageView.setImageResource(R.drawable.track_off);
             thumbImageView.setTranslationX(0f);
@@ -59,10 +65,19 @@ public class pengaturan_akun extends AppCompatActivity {
         // Atur gambar dan posisi awal switch kedua
         if (isTrack2On) {
             trackImageView2.setImageResource(R.drawable.track_on);
-            thumbImageView2.setTranslationX(83f);
+            thumbImageView2.setTranslationX(75f);
         } else {
             trackImageView2.setImageResource(R.drawable.track_off);
             thumbImageView2.setTranslationX(0f);
+        }
+
+        // Atur gambar dan posisi awal switch ketiga
+        if (isTrack3On) {
+            trackImageView3.setImageResource(R.drawable.track_on);
+            thumbImageView3.setTranslationX(75f);
+        } else {
+            trackImageView3.setImageResource(R.drawable.track_off);
+            thumbImageView3.setTranslationX(0f);
         }
 
         // Menambahkan event listener untuk toggle switch track pertama (track on/off)
@@ -78,7 +93,7 @@ public class pengaturan_akun extends AppCompatActivity {
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrackOn) {
                     trackImageView.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView.animate().translationX(83f).setDuration(200);  // Geser thumb ke kanan
+                    thumbImageView.animate().translationX(75f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
                     thumbImageView.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
@@ -99,10 +114,31 @@ public class pengaturan_akun extends AppCompatActivity {
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrack2On) {
                     trackImageView2.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView2.animate().translationX(83f).setDuration(200);  // Geser thumb ke kanan
+                    thumbImageView2.animate().translationX(75f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView2.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
                     thumbImageView2.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
+                }
+            }
+        });
+
+        // Menambahkan event listener untuk toggle switch track ketiga (track on/off)
+        trackImageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Toggle status track ketiga
+                isTrack3On = !isTrack3On;
+
+                // Simpan status ke SharedPreferences
+                sharedPreferences.edit().putBoolean("track3Status", isTrack3On).apply();
+
+                // Ubah gambar track dan geser thumb sesuai dengan status
+                if (isTrack3On) {
+                    trackImageView3.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
+                    thumbImageView3.animate().translationX(75f).setDuration(200);  // Geser thumb ke kanan
+                } else {
+                    trackImageView3.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
+                    thumbImageView3.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
                 }
             }
         });
