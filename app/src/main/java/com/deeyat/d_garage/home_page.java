@@ -38,6 +38,26 @@ public class home_page extends AppCompatActivity {
             }
         });
 
+        // Inisialisasi Imagebutton18
+        ImageButton imageButton18 = findViewById(R.id.imageButton18);
+        imageButton18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home_page.this, kendaraan_saya.class);
+                startActivity(intent);
+            }
+        });
+
+        // Inisialisasi Imagebutton14
+        ImageButton imageButton14 = findViewById(R.id.imageButton14);
+        imageButton14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(home_page.this, lokasi_bengkel.class);
+                startActivity(intent);
+            }
+        });
+
         // Inisialisasi TextView textView18
         ImageButton imageButton23 = findViewById(R.id.imageButton23);
 
