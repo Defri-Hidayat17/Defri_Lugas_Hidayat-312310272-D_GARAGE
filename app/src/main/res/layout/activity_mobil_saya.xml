@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mobil_saya"
+    android:background="@drawable/kendaraan_saya_bg">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/back"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        app:srcCompat="@drawable/kotak10" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:gravity="center"
+        android:text="PAJERO SPORT"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:gravity="center"
+        android:text="DAKAR ULTIMATE 4x4 A/T"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <View
+        android:layout_width="411dp"
+        android:layout_height="3dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="89dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.306"
+        app:srcCompat="@drawable/owner" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="23dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.451"
+        app:srcCompat="@drawable/plat_nomor" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:gravity="center"
+        android:text="No.Polisi"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:gravity="center"
+        android:text="B 1746 DEF"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.490" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="288dp"
+        android:layout_height="203dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pajerosport" />
+</android.support.constraint.ConstraintLayout>

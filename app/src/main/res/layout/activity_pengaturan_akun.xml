@@ -60,21 +60,21 @@
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.063"
+        app:layout_constraintVertical_bias="0.065"
         app:srcCompat="@drawable/track_off" />
 
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177"
-        app:srcCompat="@drawable/thumb" />
+        android:id="@+id/imageView36"
+        android:layout_width="22dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/lingkaran" />
 
     <TextView
         android:id="@+id/textView22"
@@ -122,17 +122,6 @@
         app:layout_constraintVertical_bias="0.609"
         app:srcCompat="@drawable/track_off" />
 
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:layout_constraintVertical_bias="0.166"
-        app:srcCompat="@drawable/thumb" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -147,16 +136,16 @@
         app:srcCompat="@drawable/track_off" />
 
     <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:layout_constraintVertical_bias="0.083"
-        app:srcCompat="@drawable/thumb" />
+        android:id="@+id/imageView24"
+        android:layout_width="22dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.341"
+        app:srcCompat="@drawable/lingkaran" />
 
     <TextView
         android:id="@+id/textView23"
@@ -193,20 +182,34 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_ubah_password_red"
+        android:elevation="0dp"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
         android:text="Ubah Password"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="18sp"
-        android:elevation="0dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.074" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="413dp"
+        android:layout_height="900dp"
+        android:scaleType="center"
+        android:visibility="gone"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/layout_transparan" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -283,5 +286,17 @@
         app:layout_constraintTop_toTopOf="@+id/imageView20"
         app:layout_constraintVertical_bias="0.881"
         app:srcCompat="@drawable/btn2" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="22dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.613"
+        app:srcCompat="@drawable/lingkaran" />
 
 </android.support.constraint.ConstraintLayout>

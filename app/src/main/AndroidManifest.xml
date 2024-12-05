@@ -13,6 +13,13 @@
         android:theme="@style/Theme.DGARAGE"
         tools:targetApi="31">
         <activity
+            android:name=".mobil_saya"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".tentang_kami"
             android:exported="false">
             <meta-data

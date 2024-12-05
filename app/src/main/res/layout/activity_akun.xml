@@ -157,13 +157,13 @@
         android:background="@drawable/button_setting_akun"
         android:drawableLeft="@drawable/dua"
         android:drawableRight="@drawable/tujuh"
-        android:drawablePadding="17.5dp"
+        android:drawablePadding="17dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:fontFamily="@font/lexend_deca"
         android:hint="Mobil Saya"
         android:inputType="text"
-        android:paddingStart="16dp"
+        android:paddingStart="19dp"
         android:paddingEnd="16dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
@@ -184,13 +184,13 @@
         android:background="@drawable/button_setting_akun"
         android:drawableLeft="@drawable/tiga"
         android:drawableRight="@drawable/tujuh"
-        android:drawablePadding="23.1dp"
+        android:drawablePadding="21dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:fontFamily="@font/lexend_deca"
         android:hint="Voucher Saya"
         android:inputType="text"
-        android:paddingStart="16dp"
+        android:paddingStart="21dp"
         android:paddingEnd="16dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
@@ -210,10 +210,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.125"
+        app:layout_constraintVertical_bias="0.096"
         app:srcCompat="@drawable/kotak3" />
 
     <TextView
@@ -242,7 +242,7 @@
         android:background="@drawable/button_setting_akun"
         android:drawableLeft="@drawable/empat"
         android:drawableRight="@drawable/tujuh"
-        android:drawablePadding="15dp"
+        android:drawablePadding="16dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:fontFamily="@font/lexend_deca"
@@ -256,7 +256,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView22"
         app:layout_constraintVertical_bias="0.017"
@@ -269,13 +269,13 @@
         android:background="@drawable/button_setting_akun"
         android:drawableLeft="@drawable/lima"
         android:drawableRight="@drawable/tujuh"
-        android:drawablePadding="15dp"
+        android:drawablePadding="16dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:fontFamily="@font/lexend_deca"
         android:hint="Tentang Kami"
         android:inputType="text"
-        android:paddingStart="16dp"
+        android:paddingStart="16.5dp"
         android:paddingEnd="16dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
@@ -291,7 +291,7 @@
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="63dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -306,7 +306,7 @@
         android:background="@drawable/button_setting_akun"
         android:drawableLeft="@drawable/enam"
         android:drawableRight="@drawable/tujuh"
-        android:drawablePadding="15dp"
+        android:drawablePadding="16dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:fontFamily="@font/lexend_deca"
@@ -320,24 +320,23 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView19"
         app:layout_constraintEnd_toEndOf="@+id/imageView17"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="@+id/imageView17"
         app:layout_constraintTop_toTopOf="@+id/imageView19"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.478"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView30"
         android:layout_width="413dp"
-        android:layout_height="690dp"
-        android:scaleType="fitXY"
+        android:layout_height="900dp"
+        android:scaleType="center"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.502"
         app:srcCompat="@drawable/layout_transparan" />
 
     <ImageView
@@ -360,10 +359,9 @@
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/imageView27"
         app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/imageView27"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833"
+        app:layout_constraintVertical_bias="0.894"
         app:srcCompat="@drawable/yakin" />
 
     <TextView
@@ -395,7 +393,7 @@
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="@+id/imageView27"
         app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.838"
+        app:layout_constraintVertical_bias="0.906"
         app:srcCompat="@drawable/keluar" />
 
     <ImageView
@@ -408,7 +406,7 @@
         app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="@+id/imageView27"
         app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.838"
+        app:layout_constraintVertical_bias="0.906"
         app:srcCompat="@drawable/batal" />
 
 

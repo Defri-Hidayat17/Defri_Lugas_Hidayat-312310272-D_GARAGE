@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.284"
+        app:layout_constraintVertical_bias="0.854"
         app:srcCompat="@drawable/kotak7" />
 
     <ImageView
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView29"
         app:layout_constraintStart_toStartOf="@+id/imageView29"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.892"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/kupon" />
 
     <TextView
@@ -50,15 +50,16 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
-        android:text="Kupon Promo Super Service 2024"
+        android:text="Kupon Promo Oli TOP 1 "
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView29"
         app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/imageView29"
         app:layout_constraintTop_toTopOf="@+id/imageView29"
-        app:layout_constraintVertical_bias="0.737" />
+        app:layout_constraintVertical_bias="0.746" />
 
     <TextView
         android:id="@+id/textView27"
@@ -76,4 +77,124 @@
         app:layout_constraintTop_toTopOf="@+id/imageView29"
         app:layout_constraintVertical_bias="0.873" />
 
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="382dp"
+        android:layout_height="263dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215"
+        app:srcCompat="@drawable/kotak9" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:gravity="center"
+        android:text="Kupon Promo Super Service 2024"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="207dp"
+        android:layout_height="125dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/pajerosport" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.140"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:text="GIFT VOUCHER"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="93dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.384"
+        app:srcCompat="@drawable/diskon" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:gravity="center"
+        android:text="Berlaku sampai 12 - 12 - 2024"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:background="@color/Red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:background="@color/Red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
 </android.support.constraint.ConstraintLayout>

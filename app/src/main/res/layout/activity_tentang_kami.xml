@@ -1,151 +1,297 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tentang_kami">
+    tools:context=".tentang_kami"
+    android:background="@color/gray">
 
-    <android.widget.ScrollView
+
+  <ImageView
+      android:id="@+id/imageView21"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleType="fitXY"
+      android:elevation="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/header_tentang_kami" />
+
+  <ImageButton
+      android:id="@+id/imageButton7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:elevation="10dp"
+      android:background="@drawable/ripple_gray"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.045"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.038"
+      app:srcCompat="@drawable/back"
+      tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:elevation="0dp"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.widget.LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/imageView34"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="104dp"
+          android:elevation="0dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.478"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/kotak8" />
 
-            <!-- Text dan EditText pertama -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 1"
-                android:padding="10dp" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 1" />
+      <ImageView
+          android:id="@+id/imageView38"
+          android:layout_width="131dp"
+          android:layout_height="121dp"
+          app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.522"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="@+id/imageView34"
+          app:layout_constraintVertical_bias="0.029"
+          app:srcCompat="@drawable/logo" />
 
-            <!-- Text dan EditText kedua -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 2"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView28"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          android:text="D'GARAGE adalah penyedia layanan bengkel mobil yang berdedikasi untuk memberikan solusi perawatan dan perbaikan kendaraan terbaik bagi pelanggan. Berdiri sejak Juni 2007, D'GARAGE telah berkembang menjadi bengkel terpercaya yang melayani berbagai kebutuhan kendaraan, mulai dari perawatan rutin, perbaikan, hingga modifikasi."
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/imageView38"
+          app:layout_constraintVertical_bias="0.044" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 2" />
+      <TextView
+          android:id="@+id/textView30"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Dengan tim mekanik yang berpengalaman dan peralatan modern, kami berkomitmen untuk memberikan layanan yang berkualitas tinggi, cepat, dan efisien. Kami memahami bahwa setiap kendaraan memiliki kebutuhan unik, dan kami berusaha memenuhi kebutuhan tersebut dengan layanan profesional dan terpercaya."
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.308" />
 
-            <!-- Text dan EditText ketiga -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 3"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView29"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Di D'GARAGE, kepuasan pelanggan adalah prioritas utama kami. Kami selalu berupaya memberikan layanan terbaik, transparan, dan penuh integritas. Dengan pengalaman lebih dari 15 tahun, kami siap mendampingi Anda untuk menjaga kendaraan tetap prima di jalan."
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.037" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 3" />
+      <TextView
+          android:id="@+id/textView31"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Kenapa Memilih D'GARAGE?"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.503" />
 
-            <!-- Text dan EditText keempat -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 4"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView32"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Kenapa Memilih D'GARAGE?"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.503" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 4" />
+      <TextView
+          android:id="@+id/textView33"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="- Mekanik berpengalaman dan terlatih"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.931"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.537" />
 
-            <!-- Text dan EditText kelima -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 5"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView34"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="- Peralatan dan teknologi terbaru"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.931"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.571" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 5" />
+      <TextView
+          android:id="@+id/textView35"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="- Layanan lengkap untuk perbaikan kendaraan"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.931"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.605" />
 
-            <!-- Text dan EditText keenam -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 6"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView36"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="- Harga transparan dan lebih bersahabat"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.931"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.638" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 6" />
+      <TextView
+          android:id="@+id/textView37"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="- Pelayanan cepat dan responsif"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.931"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.673" />
 
-            <!-- Text dan EditText ketujuh -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 7"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView38"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Percayakan perawatan kendaraan Anda kepada D'GARAGE, partner terbaik untuk memastikan kendaraan Anda selalu dalam kondisi optimal."
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.779" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 7" />
 
-            <!-- Text dan EditText kedelapan -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 8"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView39"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Kritik dan Saran"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.854" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 8" />
+      <TextView
+          android:id="@+id/textView40"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="Untuk kritik dan saran, bisa hubungi nomor berikut:"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.889" />
 
-            <!-- Text dan EditText kesembilan -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 9"
-                android:padding="10dp" />
+      <TextView
+          android:id="@+id/textView41"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="- Call Center D'GARAGE"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintHorizontal_bias="0.931"
+          app:layout_constraintVertical_bias="0.930" />
 
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 9" />
+      <TextView
+          android:id="@+id/textView42"
+          android:layout_width="330dp"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/lexend_deca"
+          android:text="  0895-0937-1705"
+          android:textColor="@color/black"
+          android:textSize="13sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="@+id/imageView34"
+          app:layout_constraintHorizontal_bias="0.980"
+          app:layout_constraintStart_toStartOf="@+id/imageView34"
+          app:layout_constraintTop_toBottomOf="@+id/textView28"
+          app:layout_constraintVertical_bias="0.965" />
 
-            <!-- Text dan EditText kesepuluh -->
-            <android.widget.TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Text 10"
-                android:padding="10dp" />
-
-            <android.widget.EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:hint="EditText 10" />
-
-        </android.widget.LinearLayout>
-    </android.widget.ScrollView>
-
+    </android.support.constraint.ConstraintLayout>
+  </ScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -61,15 +61,16 @@ public class pengaturan_akun extends AppCompatActivity {
 
         // Inisialisasi ImageView untuk track dan thumb pertama
         final ImageView trackImageView = findViewById(R.id.imageView13);
-        final ImageView thumbImageView = findViewById(R.id.imageView14);
+        final ImageView thumbImageView = findViewById(R.id.imageView36);
+
 
         // Inisialisasi ImageView untuk track dan thumb kedua
         final ImageView trackImageView2 = findViewById(R.id.imageView15);
-        final ImageView thumbImageView2 = findViewById(R.id.imageView21);
+        final ImageView thumbImageView2 = findViewById(R.id.imageView24);
 
         // Inisialisasi ImageView untuk track dan thumb ketiga
         final ImageView trackImageView3 = findViewById(R.id.imageView16);
-        final ImageView thumbImageView3 = findViewById(R.id.imageView24);
+        final ImageView thumbImageView3 = findViewById(R.id.imageView35);
 
         // Elemen yang akan diberikan animasi zoom in
         final ImageView imageView20 = findViewById(R.id.imageView20);
@@ -77,6 +78,8 @@ public class pengaturan_akun extends AppCompatActivity {
         final ImageView imageView25 = findViewById(R.id.imageView25);
         final ImageView imageView26 = findViewById(R.id.imageView26);
         final TextView textView24 = findViewById(R.id.textView24);
+        final ImageView imageView30 = findViewById(R.id.imageView30);
+
 
         // Tombol pemicu animasi zoom in
         final ImageView imageView23 = findViewById(R.id.imageView23);
@@ -94,6 +97,7 @@ public class pengaturan_akun extends AppCompatActivity {
                     setVisibleWithAnimation(imageView25);
                     setVisibleWithAnimation(imageView26);
                     setVisibleWithAnimation(textView24);
+                    setVisibleWithAnimation(imageView30);
                     isZoomedIn = true; // Menandakan elemen sudah di-zoom in
                 }
             }
@@ -109,6 +113,7 @@ public class pengaturan_akun extends AppCompatActivity {
                     setGoneWithAnimation(imageView25);
                     setGoneWithAnimation(imageView26);
                     setGoneWithAnimation(textView24);
+                    setGoneWithAnimation(imageView30);
                     isZoomedIn = false; // Menandakan elemen sudah disembunyikan
                 }
             }
@@ -127,7 +132,7 @@ public class pengaturan_akun extends AppCompatActivity {
         // Atur gambar dan posisi awal switch pertama
         if (isTrackOn) {
             trackImageView.setImageResource(R.drawable.track_on);
-            thumbImageView.setTranslationX(75f);
+            thumbImageView.setTranslationX(72f);
         } else {
             trackImageView.setImageResource(R.drawable.track_off);
             thumbImageView.setTranslationX(0f);
@@ -136,7 +141,7 @@ public class pengaturan_akun extends AppCompatActivity {
         // Atur gambar dan posisi awal switch kedua
         if (isTrack2On) {
             trackImageView2.setImageResource(R.drawable.track_on);
-            thumbImageView2.setTranslationX(75f);
+            thumbImageView2.setTranslationX(72f);
         } else {
             trackImageView2.setImageResource(R.drawable.track_off);
             thumbImageView2.setTranslationX(0f);
@@ -145,7 +150,7 @@ public class pengaturan_akun extends AppCompatActivity {
         // Atur gambar dan posisi awal switch ketiga
         if (isTrack3On) {
             trackImageView3.setImageResource(R.drawable.track_on);
-            thumbImageView3.setTranslationX(75f);
+            thumbImageView3.setTranslationX(72f);
         } else {
             trackImageView3.setImageResource(R.drawable.track_off);
             thumbImageView3.setTranslationX(0f);
@@ -164,7 +169,7 @@ public class pengaturan_akun extends AppCompatActivity {
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrackOn) {
                     trackImageView.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView.animate().translationX(75f).setDuration(200);  // Geser thumb ke kanan
+                    thumbImageView.animate().translationX(72f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
                     thumbImageView.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
@@ -185,7 +190,7 @@ public class pengaturan_akun extends AppCompatActivity {
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrack2On) {
                     trackImageView2.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView2.animate().translationX(75f).setDuration(200);  // Geser thumb ke kanan
+                    thumbImageView2.animate().translationX(72f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView2.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
                     thumbImageView2.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
@@ -206,7 +211,7 @@ public class pengaturan_akun extends AppCompatActivity {
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrack3On) {
                     trackImageView3.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView3.animate().translationX(75f).setDuration(200);  // Geser thumb ke kanan
+                    thumbImageView3.animate().translationX(72f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView3.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
                     thumbImageView3.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri

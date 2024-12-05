@@ -34,6 +34,7 @@ public class akun extends AppCompatActivity {
             }
         });
 
+
         TextView textView12 = findViewById(R.id.textView12);
         textView12.setText(Html.fromHtml("<u>defrilugas46@gmail.com</u>"));
 
@@ -63,6 +64,16 @@ public class akun extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new  Intent(akun.this, tentang_kami.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        EditText editTextinputmobilsaya = findViewById(R.id.inputmobilsaya);
+        editTextinputmobilsaya.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new  Intent(akun.this, mobil_saya.class);
                 startActivity(intent);
                 finish();
             }
