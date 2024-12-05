@@ -7,7 +7,7 @@
     android:fillViewport="true"
     tools:context=".biodata_page">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/log_in_page">
@@ -253,5 +253,5 @@
             app:layout_constraintVertical_bias="0.483" />
 
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
