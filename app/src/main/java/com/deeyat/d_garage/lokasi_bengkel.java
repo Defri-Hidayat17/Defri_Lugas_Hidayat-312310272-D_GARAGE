@@ -24,13 +24,14 @@ public class lokasi_bengkel extends AppCompatActivity {
         ImageButton imageButton7 = findViewById(R.id.imageButton7);
         imageButton7.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) {;
                 // Navigasi ke halaman home_page
                 Intent intent = new Intent(lokasi_bengkel.this, home_page.class);
                 startActivity(intent);
                 finish(); // Menutup halaman saat ini
             }
         });
+
 
         // Mengecek apakah izin sudah diberikan
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
@@ -45,13 +46,13 @@ public class lokasi_bengkel extends AppCompatActivity {
                     1);
         }
 
-        // Inisialisasi ImageView untuk navigasi ke Google Maps
+// Inisialisasi ImageView untuk navigasi ke Google Maps
         ImageView imageView45 = findViewById(R.id.imageView45);
         imageView45.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Koordinat dalam format desimal: -6.2885, 106.9549
-                String geoUri = "geo:0,0?q=-6.2885,106.9549"; // Menggunakan format geo dengan query
+                // Koordinat dalam format desimal: -6.2906983370903395, 106.95547847955834
+                String geoUri = "geo:0,0?q=-6.290796924942013, 106.95548155468741"; // Menggunakan format geo dengan query
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUri));
                 intent.setPackage("com.google.android.apps.maps");
 
