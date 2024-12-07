@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish(); // Menutup MainActivity agar tidak kembali saat tombol kembali ditekan
             }
-        }, 3000L);
+        }, 1000L);
     }
 }

@@ -108,7 +108,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imageView7"
             app:layout_constraintTop_toBottomOf="@+id/inputemail"
-            app:layout_constraintVertical_bias="0.046" />
+            app:layout_constraintVertical_bias="0.052" />
 
         <EditText
             android:id="@+id/inputnegara"
@@ -131,7 +131,7 @@
             app:layout_constraintHorizontal_bias="0.842"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputemail"
-            app:layout_constraintVertical_bias="0.046" />
+            app:layout_constraintVertical_bias="0.052" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -168,7 +168,7 @@
             app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputNomorHanphone"
-            app:layout_constraintVertical_bias="0.07" />
+            app:layout_constraintVertical_bias="0.065" />
 
         <EditText
             android:id="@+id/inputkodepos"
@@ -191,7 +191,7 @@
             app:layout_constraintHorizontal_bias="0.842"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputjeniskelamin"
-            app:layout_constraintVertical_bias="0.1" />
+            app:layout_constraintVertical_bias="0.085" />
 
         <EditText
             android:id="@+id/inputtanggallahir"
@@ -200,19 +200,19 @@
             android:background="@drawable/input_bg"
             android:drawablePadding="10dp"
             android:fontFamily="@font/lexend_deca"
+            android:gravity="center"
             android:hint="Tanggal Lahir"
             android:inputType="none"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             android:textColor="#555555"
             android:textColorHint="#B0B0B0"
-            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imageView7"
             app:layout_constraintTop_toBottomOf="@+id/inputjeniskelamin"
-            app:layout_constraintVertical_bias="0.093" />
+            app:layout_constraintVertical_bias="0.085" />
 
         <EditText
             android:id="@+id/inputalamat"
@@ -233,7 +233,7 @@
             app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputtanggallahir"
-            app:layout_constraintVertical_bias="0.176" />
+            app:layout_constraintVertical_bias="0.130" />
 
         <Button
             android:id="@+id/button3"
