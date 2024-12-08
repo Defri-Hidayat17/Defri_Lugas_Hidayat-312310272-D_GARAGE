@@ -63,3 +63,13 @@ Aplikasi D'GARAGE dirancang menggunakan palet warna yang memberikan kesan profes
 
 ### Logo
 **Konsep** : Lingkaran hitam yang dapat diartikan bahwa Bengkel kami memiliki kesan profesional dan solid. Objek mobil yang berada di tengah antara goresan merah putih yang memiliki arti Pembaruan dan pemeliharaan mobil anda secara berkala.
+
+### Kesimpulan
+**D'GARAGE** adalah aplikasi mobile yang dirancang untuk mempermudah pemilik mobil dalam mengakses layanan servis secara cepat, praktis, dan terpercaya. Dengan menghubungkan pengguna dengan bengkel dan teknisi berpengalaman, **D'GARAGE** menjawab kebutuhan akan layanan perawatan kendaraan yang efisien.
+
+---
+
+**Pembuat**        : Defri Lugas Hidayat (NIM 312310272)  
+**Mata Kuliah**    : Pemograman Mobile 1 - Android  
+**Dosen Pengampu** : Pak Donny Maulana, S.Kom., M.M.S.I.  
+**Institusi**      : Universitas Pelita Bangsa
