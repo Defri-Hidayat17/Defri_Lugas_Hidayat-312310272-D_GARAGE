@@ -128,10 +128,10 @@
         android:background="@drawable/ripple_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton18"
-        app:layout_constraintVertical_bias="0.947"
+        app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/akun1"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -145,7 +145,7 @@
         app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton19"
-        app:layout_constraintVertical_bias="0.96"
+        app:layout_constraintVertical_bias="0.97"
         app:srcCompat="@drawable/aktivitas"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 

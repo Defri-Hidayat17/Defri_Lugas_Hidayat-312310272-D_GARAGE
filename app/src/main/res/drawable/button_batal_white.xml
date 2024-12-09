@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/darker_gray"> <!-- Warna ripple -->
+
+    <!-- Mask untuk efek ripple -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:radius="25dp"/> <!-- Radius sudut pada mask diubah menjadi 25dp -->
+        </shape>
+    </item>
+
+    <!-- Latar belakang tombol dengan radius sudut, warna merah, dan stroke hitam -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- Warna latar belakang tombol -->
+            <corners android:radius="25dp"/> <!-- Radius sudut pada tombol -->
+            <stroke android:width="1dp" android:color="#000000"/> <!-- Stroke hitam dengan ketebalan 2dp -->
+        </shape>
+    </item>
+
+</ripple>

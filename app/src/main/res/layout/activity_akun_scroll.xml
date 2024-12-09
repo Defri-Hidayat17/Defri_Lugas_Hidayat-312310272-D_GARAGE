@@ -201,18 +201,21 @@
                 app:layout_constraintVertical_bias="0.228"
                 app:srcCompat="@drawable/kotak1" />
 
-            <ImageView
-                android:id="@+id/imageView9"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfilePic"
                 android:layout_width="116dp"
                 android:layout_height="101dp"
+                android:clickable="true"
+                android:contentDescription="Profile Image"
+                android:elevation="10dp"
+                android:focusable="true"
+                android:src="@drawable/default_image"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView4"
                 app:layout_constraintEnd_toEndOf="@+id/imageView4"
                 app:layout_constraintHorizontal_bias="0.04"
                 app:layout_constraintStart_toStartOf="@+id/imageView4"
                 app:layout_constraintTop_toTopOf="@+id/imageView4"
-                app:layout_constraintVertical_bias="0.523"
-                app:srcCompat="@drawable/foto_defri" />
-
+                app:layout_constraintVertical_bias="0.523" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -226,7 +229,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/imageView4"
                 app:layout_constraintEnd_toEndOf="@+id/imageView4"
                 app:layout_constraintHorizontal_bias="0.215"
-                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/ivProfilePic"
                 app:layout_constraintTop_toTopOf="@+id/imageView4"
                 app:layout_constraintVertical_bias="0.166" />
 
@@ -242,7 +245,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/imageView4"
                 app:layout_constraintEnd_toEndOf="@+id/imageView4"
                 app:layout_constraintHorizontal_bias="0.215"
-                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/ivProfilePic"
                 app:layout_constraintTop_toTopOf="@+id/imageView4"
                 app:layout_constraintVertical_bias="0.707" />
 
@@ -258,7 +261,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/imageView4"
                 app:layout_constraintEnd_toEndOf="@+id/imageView4"
                 app:layout_constraintHorizontal_bias="0.215"
-                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/ivProfilePic"
                 app:layout_constraintTop_toTopOf="@+id/imageView4"
                 app:layout_constraintVertical_bias="0.919" />
 
