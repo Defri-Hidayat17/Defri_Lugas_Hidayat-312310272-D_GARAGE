@@ -20,7 +20,7 @@ public class voucher_saya extends AppCompatActivity {
         imageButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(voucher_saya.this, akun.class);
+                Intent intent = new Intent(voucher_saya.this, akun_scroll.class);
                 startActivity(intent);
                 finish(); // Opsional: menutup halaman saat ini
             }

@@ -120,6 +120,7 @@
         app:srcCompat="@drawable/spareparts"
         tools:ignore="SpeakableTextPresentCheck" />
 
+
     <ImageButton
         android:id="@+id/imageButton23"
         android:layout_width="wrap_content"

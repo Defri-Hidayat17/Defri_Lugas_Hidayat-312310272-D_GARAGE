@@ -64,7 +64,7 @@ public class home_page extends AppCompatActivity {
         imageButton23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(home_page.this, akun.class);
+                Intent intent = new Intent(home_page.this, akun_scroll.class);
                 startActivity(intent);
             }
         });

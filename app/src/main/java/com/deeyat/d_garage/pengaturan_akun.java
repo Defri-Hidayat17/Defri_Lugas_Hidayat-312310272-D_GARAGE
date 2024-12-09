@@ -41,7 +41,7 @@ public class pengaturan_akun extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Intent untuk berpindah ke halaman akun
-                Intent intent = new Intent(pengaturan_akun.this, akun.class);
+                Intent intent = new Intent(pengaturan_akun.this, akun_scroll.class);
                 startActivity(intent);
             }
         });
