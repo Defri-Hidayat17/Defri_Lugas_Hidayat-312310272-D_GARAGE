@@ -53,7 +53,7 @@
         android:fontFamily="@font/lexend_deca"
         android:text="LAYANAN 24 JAM"
         android:textColor="@color/Red"
-        android:textSize="20sp"
+        android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView58"
         app:layout_constraintEnd_toEndOf="@+id/imageView58"
