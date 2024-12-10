@@ -26,11 +26,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ripple_blue_sea"
+        android:elevation="0dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton11"
-        app:layout_constraintVertical_bias="0.623"
+        app:layout_constraintVertical_bias="0.58"
         app:srcCompat="@drawable/car"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -41,6 +42,7 @@
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
         android:text="Menu"
+        android:elevation="10dp"
         android:textColor="@color/black"
         android:textSize="29sp"
         android:textStyle="bold"

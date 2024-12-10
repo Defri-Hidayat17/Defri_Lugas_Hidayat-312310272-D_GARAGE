@@ -16,7 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.app.AlertDialog;
-import androidx.annotation.NonNull;
+
 import androidx.core.content.FileProvider;
 
 import android.Manifest;
@@ -93,7 +93,7 @@ public class akun_scroll extends AppCompatActivity {
 
         ImageView imageView99 = findViewById(R.id.imageView99);
         imageView99.setOnClickListener(v -> {
-            Intent intent = new Intent(akun_scroll.this, aktifitas_1.class);
+            Intent intent = new Intent(akun_scroll.this, aktifitas1.class);
             startActivity(intent);
         });
 

@@ -17,6 +17,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:elevation="10dp"
         app:layout_constraintVertical_bias="0.038"
         app:srcCompat="@drawable/back"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -31,6 +32,7 @@
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.097"
@@ -48,6 +50,7 @@
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
+        android:elevation="10dp"
         app:layout_constraintBottom_toTopOf="@+id/inputPhone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
@@ -67,6 +70,7 @@
         android:inputType="text"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
+        android:elevation="10dp"
         android:textColor="#555555"
         android:textColorHint="#B0B0B0"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,11 +78,14 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.058"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <View
+        android:id="@+id/view3"
         android:layout_width="match_parent"
         android:layout_height="2dp"
+        android:elevation="10dp"
         android:background="@color/gray_medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,35 +94,103 @@
         app:layout_constraintTop_toBottomOf="@+id/inputPhone"
         app:layout_constraintVertical_bias="0.022" />
 
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="299dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="96dp"
-        android:fontFamily="@font/lexend_deca"
-        android:gravity="center"
-        android:text="Belum ada riwayat yang dapat ditampilkan"
-        android:textColor="@color/gray_medium"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        android:alpha="0.5"
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/button_aktifitas_1" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="122dp"
-        android:layout_height="118dp"
-        android:alpha="0.5"
+        android:id="@+id/imageView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView63"
+        app:layout_constraintStart_toStartOf="@+id/imageView63"
+        app:layout_constraintTop_toTopOf="@+id/imageView63"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/home_button" />
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView63"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="@+id/imageView63"
+        app:layout_constraintTop_toTopOf="@+id/imageView63"
+        app:layout_constraintVertical_bias="0.97"
+        app:srcCompat="@drawable/akun2" />
+
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="477dp"
+        android:elevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputPhone"
-        app:layout_constraintVertical_bias="0.381"
-        app:srcCompat="@drawable/riwayat" />
+        app:layout_constraintTop_toTopOf="@+id/view3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="wrap_content"
+                android:layout_height="900dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/kotak12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="118dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="136dp"
+                android:alpha="0.5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView64"
+                app:srcCompat="@drawable/riwayat" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:alpha="0.5"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="center"
+                android:text="Belum ada riwayat yang dapat ditampilkan"
+                android:textColor="@color/gray_medium"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="@+id/imageView64"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

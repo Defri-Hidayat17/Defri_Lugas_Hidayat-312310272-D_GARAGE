@@ -27,10 +27,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305"
+        app:layout_constraintVertical_bias="0.248"
         app:srcCompat="@drawable/kotak10" />
 
     <TextView
@@ -76,8 +76,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268" />
+        app:layout_constraintTop_toTopOf="@+id/imageView39"
+        app:layout_constraintVertical_bias="0.126" />
 
     <ImageView
         android:id="@+id/imageView41"
@@ -146,7 +146,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView39"
         app:layout_constraintStart_toStartOf="@+id/imageView39"
         app:layout_constraintTop_toTopOf="@+id/imageView39"
-        app:layout_constraintVertical_bias="0.330"
+        app:layout_constraintVertical_bias="0.3"
         app:srcCompat="@drawable/pajerosport" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

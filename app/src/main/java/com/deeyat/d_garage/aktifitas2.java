@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class aktifitas2 extends AppCompatActivity {
@@ -34,9 +35,26 @@ public class aktifitas2 extends AppCompatActivity {
         textView17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(aktifitas2.this, aktifitas_1.class);
+                Intent intent = new Intent(aktifitas2.this, aktifitas1.class);
                 startActivity(intent);
+            }
+        });
 
+        ImageView imageView98 =findViewById(R.id.imageView98);
+        imageView98.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(aktifitas2.this, home_page.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imageView99 =findViewById(R.id.imageView99);
+        imageView99.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(aktifitas2.this, akun_scroll.class);
+                startActivity(intent);
             }
         });
     }

@@ -32,7 +32,7 @@ public class home_page extends AppCompatActivity {
         imageButton24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(home_page.this, aktifitas_1.class);
+                Intent intent = new Intent(home_page.this, aktifitas1.class);
                 startActivity(intent);
             }
         });
@@ -65,6 +65,18 @@ public class home_page extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(home_page.this, akun_scroll.class);
+                startActivity(intent);
+            }
+        });
+
+        // Inisialisasi TextView textView18
+        ImageButton imageButton12 = findViewById(R.id.imageButton12);
+
+        // Tambahkan event listener untuk navigasi ke aktifitas_2
+        imageButton12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home_page.this, tambah_mobil.class);
                 startActivity(intent);
             }
         });

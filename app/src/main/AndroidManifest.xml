@@ -21,6 +21,13 @@
         android:theme="@style/Theme.DGARAGE"
         tools:targetApi="31">
         <activity
+            android:name=".tambah_mobil"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".hubungi_kami"
             android:exported="false">
             <meta-data
@@ -143,7 +150,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".aktifitas_1"
+            android:name=".aktifitas1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
