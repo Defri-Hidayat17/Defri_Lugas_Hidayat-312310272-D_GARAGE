@@ -49,6 +49,15 @@ public class edit_profil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profil);
 
+        Button button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(edit_profil.this, edit_profil_berhasil_diubah.class);
+                startActivity(intent);
+            }
+        });
+
         // Inisialisasi view
         ivProfilePic = findViewById(R.id.ivProfilePic);
         inputNegara = findViewById(R.id.inputnegara);

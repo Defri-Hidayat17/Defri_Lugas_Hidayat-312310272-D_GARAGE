@@ -131,28 +131,34 @@ public class pengaturan_akun extends AppCompatActivity {
 
         // Atur gambar dan posisi awal switch pertama
         if (isTrackOn) {
-            trackImageView.setImageResource(R.drawable.track_on);
-            thumbImageView.setTranslationX(72f);
+            trackImageView.setImageResource(R.drawable.track_on_blue);
+            thumbImageView.setImageResource(R.drawable.thumb_on);
+            thumbImageView.setTranslationX(63f);
         } else {
             trackImageView.setImageResource(R.drawable.track_off);
+            thumbImageView.setImageResource(R.drawable.thumb_off);
             thumbImageView.setTranslationX(0f);
         }
 
         // Atur gambar dan posisi awal switch kedua
         if (isTrack2On) {
-            trackImageView2.setImageResource(R.drawable.track_on);
-            thumbImageView2.setTranslationX(72f);
+            trackImageView2.setImageResource(R.drawable.track_on_blue);
+            thumbImageView2.setImageResource(R.drawable.thumb_on);
+            thumbImageView2.setTranslationX(63f);
         } else {
             trackImageView2.setImageResource(R.drawable.track_off);
+            thumbImageView2.setImageResource(R.drawable.thumb_off);
             thumbImageView2.setTranslationX(0f);
         }
 
         // Atur gambar dan posisi awal switch ketiga
         if (isTrack3On) {
-            trackImageView3.setImageResource(R.drawable.track_on);
-            thumbImageView3.setTranslationX(72f);
+            trackImageView3.setImageResource(R.drawable.track_on_blue);
+            thumbImageView3.setImageResource(R.drawable.thumb_on);
+            thumbImageView3.setTranslationX(63f);
         } else {
             trackImageView3.setImageResource(R.drawable.track_off);
+            thumbImageView3.setImageResource(R.drawable.thumb_off);
             thumbImageView3.setTranslationX(0f);
         }
 
@@ -168,10 +174,12 @@ public class pengaturan_akun extends AppCompatActivity {
 
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrackOn) {
-                    trackImageView.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView.animate().translationX(72f).setDuration(200);  // Geser thumb ke kanan
+                    trackImageView.setImageResource(R.drawable.track_on_blue);  // Ganti gambar track ke ON
+                    thumbImageView.setImageResource(R.drawable.thumb_on);
+                    thumbImageView.animate().translationX(63f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
+                    thumbImageView.setImageResource(R.drawable.thumb_off);
                     thumbImageView.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
                 }
             }
@@ -189,10 +197,12 @@ public class pengaturan_akun extends AppCompatActivity {
 
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrack2On) {
-                    trackImageView2.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView2.animate().translationX(72f).setDuration(200);  // Geser thumb ke kanan
+                    trackImageView2.setImageResource(R.drawable.track_on_blue);  // Ganti gambar track ke ON
+                    thumbImageView2.setImageResource(R.drawable.thumb_on);
+                    thumbImageView2.animate().translationX(63f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView2.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
+                    thumbImageView2.setImageResource(R.drawable.thumb_off);
                     thumbImageView2.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
                 }
             }
@@ -210,10 +220,12 @@ public class pengaturan_akun extends AppCompatActivity {
 
                 // Ubah gambar track dan geser thumb sesuai dengan status
                 if (isTrack3On) {
-                    trackImageView3.setImageResource(R.drawable.track_on);  // Ganti gambar track ke ON
-                    thumbImageView3.animate().translationX(72f).setDuration(200);  // Geser thumb ke kanan
+                    trackImageView3.setImageResource(R.drawable.track_on_blue);  // Ganti gambar track ke ON
+                    thumbImageView3.setImageResource(R.drawable.thumb_on);
+                    thumbImageView3.animate().translationX(63f).setDuration(200);  // Geser thumb ke kanan
                 } else {
                     trackImageView3.setImageResource(R.drawable.track_off); // Ganti gambar track ke OFF
+                    thumbImageView3.setImageResource(R.drawable.thumb_off);
                     thumbImageView3.animate().translationX(0f).setDuration(200);  // Geser thumb ke kiri
                 }
             }

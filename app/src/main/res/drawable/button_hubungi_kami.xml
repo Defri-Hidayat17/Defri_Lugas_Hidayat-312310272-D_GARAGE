@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#D933B5E5"> <!-- Warna ripple abu-abu terang -->
+
+    <!-- Mask untuk ripple -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:radius="50dp"/> <!-- Sudut rounded untuk ripple -->
+        </shape>
+    </item>
+
+    <!-- Latar belakang tombol -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00A6FF"/> <!-- Warna latar biru -->
+            <corners android:radius="50dp"/> <!-- Sudut rounded -->
+        </shape>
+    </item>
+</ripple>

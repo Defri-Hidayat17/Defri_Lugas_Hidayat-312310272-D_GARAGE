@@ -34,22 +34,34 @@
         app:srcCompat="@drawable/kotak5" />
 
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.065"
+        app:srcCompat="@drawable/location" />
+
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
-        android:text="Tampil Notifikasi"
+        android:text="Lokasi"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.150"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.072" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -66,15 +78,27 @@
 
     <ImageView
         android:id="@+id/imageView36"
-        android:layout_width="22dp"
-        android:layout_height="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.067"
-        app:srcCompat="@drawable/lingkaran" />
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/thumb_off" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.343"
+        app:srcCompat="@drawable/camera" />
 
     <TextView
         android:id="@+id/textView22"
@@ -82,16 +106,28 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
-        android:text="Getar Notifikasi"
+        android:text="Kamera"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.155"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias="0.345" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.613"
+        app:srcCompat="@drawable/file" />
 
     <TextView
         android:id="@+id/textView25"
@@ -99,16 +135,16 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
-        android:text="Notifikasi Layar Kunci"
+        android:text="File dan Media"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintHorizontal_bias="0.186"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.613" />
+        app:layout_constraintVertical_bias="0.617" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -119,7 +155,7 @@
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.609"
+        app:layout_constraintVertical_bias="0.613"
         app:srcCompat="@drawable/track_off" />
 
 
@@ -137,15 +173,27 @@
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="22dp"
-        android:layout_height="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.341"
-        app:srcCompat="@drawable/lingkaran" />
+        app:layout_constraintVertical_bias="0.343"
+        app:srcCompat="@drawable/thumb_off" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.889"
+        app:srcCompat="@drawable/careful" />
 
     <TextView
         android:id="@+id/textView23"
@@ -159,10 +207,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.886" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <ImageView
         android:id="@+id/imageView23"
@@ -180,7 +228,7 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:background="@drawable/button_ubah_password_red"
         android:elevation="0dp"
         android:fontFamily="@font/lexend_deca"
@@ -188,7 +236,7 @@
         android:text="Ubah Password"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -289,14 +337,14 @@
 
     <ImageView
         android:id="@+id/imageView35"
-        android:layout_width="22dp"
-        android:layout_height="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.613"
-        app:srcCompat="@drawable/lingkaran" />
+        app:layout_constraintVertical_bias="0.611"
+        app:srcCompat="@drawable/thumb_off" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

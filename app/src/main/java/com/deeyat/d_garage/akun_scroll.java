@@ -109,6 +109,12 @@ public class akun_scroll extends AppCompatActivity {
             startActivity(intent);
         });
 
+        EditText editTextinputhubungikami = findViewById(R.id.inputhubungikami);
+        editTextinputhubungikami.setOnClickListener(v -> {
+            Intent intent = new Intent(akun_scroll.this, hubungi_kami.class);
+            startActivity(intent);
+        });
+
         final EditText inputLogout = findViewById(R.id.inputlogout);
         final ImageView imageView30 = findViewById(R.id.imageView30);
         final ImageView imageView27 = findViewById(R.id.imageView27);

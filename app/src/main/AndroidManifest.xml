@@ -21,13 +21,26 @@
         android:theme="@style/Theme.DGARAGE"
         tools:targetApi="31">
         <activity
-            android:name=".pengaturan_notifikasi"
+            android:name=".hubungi_kami"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <!-- FileProvider -->
+        <activity
+            android:name=".edit_profil_berhasil_diubah"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".pengaturan_notifikasi"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- FileProvider -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.deeyat.d_garage.fileprovider"
