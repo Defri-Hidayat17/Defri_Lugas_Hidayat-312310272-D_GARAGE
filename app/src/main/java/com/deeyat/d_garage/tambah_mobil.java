@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class tambah_mobil extends AppCompatActivity {
@@ -26,5 +27,19 @@ public class tambah_mobil extends AppCompatActivity {
                 finish(); // Opsional: menutup halaman saat ini
             }
         });
+
+        // Inisialisasi tombol imageButton7
+        Button button4 = findViewById(R.id.button4);
+
+        // Tambahkan event listener untuk navigasi ke home_page
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(tambah_mobil.this, tambah_data_mobil.class);
+                startActivity(intent);
+                finish(); // Opsional: menutup halaman saat ini
+            }
+        });
+
     }
 }

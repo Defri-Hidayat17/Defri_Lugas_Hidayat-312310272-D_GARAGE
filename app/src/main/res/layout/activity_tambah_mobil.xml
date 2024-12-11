@@ -13,10 +13,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.874"
+        app:layout_constraintVertical_bias="0.93"
         app:srcCompat="@drawable/kotak14" />
 
     <ImageButton
@@ -53,7 +53,7 @@
         android:fontFamily="@font/lexend_deca"
         android:text="Masukkan Nomor Rangka Kendaraan Anda (VIN)"
         android:textColor="@color/black"
-        android:textSize="13sp"
+        android:textSize="14sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="@+id/imageView65"
         app:layout_constraintEnd_toEndOf="@+id/imageView65"

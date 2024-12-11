@@ -51,8 +51,8 @@ public class lokasi_bengkel extends AppCompatActivity {
         imageView45.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Koordinat dalam format desimal: -6.2908006948627015, 106.9554799872745
-                String geoUri = "geo:0,0?q=-6.2908006948627015, 106.9554799872745"; // Menggunakan format geo dengan query
+                // Koordinat dalam format desimal: -6.230309684299261, 107.05816569678933
+                String geoUri = "geo:0,0?q=-6.230309684299261, 107.05816569678933"; // Menggunakan format geo dengan query
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUri));
                 intent.setPackage("com.google.android.apps.maps");
 
