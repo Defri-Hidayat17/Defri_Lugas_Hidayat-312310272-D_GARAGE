@@ -32,6 +32,15 @@ public class spareparts extends AppCompatActivity {
         TextView textView68 = findViewById(R.id.textView68);
         textView68.setText(Html.fromHtml("<u>Oli Transmisi</u>"));
 
+        TextView textView068 = findViewById(R.id.textView068);
+        textView068.setText(Html.fromHtml("<u>Oli Gardan</u>"));
+
+        TextView textView0068 = findViewById(R.id.textView0068);
+        textView0068.setText(Html.fromHtml("<u>Air Radiator</u>"));
+
+        TextView textView00068 = findViewById(R.id.textView00068);
+        textView00068.setText(Html.fromHtml("<u>Minyak Rem</u>"));
+
         // Event listener untuk membuka URL pada setiap ImageView
         initializeImageView(R.id.imageView75, "https://www.top1.co.id/produk/detail/EVOLUTION-5W-30-API-SP");
         initializeImageView(R.id.imageView2, "https://www.top1.co.id/produk/detail/EVOLUTION-0W-20-API-SP");
@@ -52,6 +61,13 @@ public class spareparts extends AppCompatActivity {
         initializeImageView(R.id.imageView04, "https://www.top1.co.id/produk/detail/ATF-EVOLUTION-MV");
         initializeImageView(R.id.imageView06, "https://www.top1.co.id/produk/detail/ATF-CVT");
         initializeImageView(R.id.imageView08, "https://www.top1.co.id/produk/detail/ATF-MV-PLUS");
+        initializeImageView(R.id.imageView002, "https://www.top1.co.id/produk/detail/SGO-80W-90-API-GL-4");
+        initializeImageView(R.id.imageView004, "https://www.top1.co.id/produk/detail/SGO-90-API-GL-5");
+        initializeImageView(R.id.imageView006, "https://www.top1.co.id/produk/detail/SGO-140-API-GL-5");
+        initializeImageView(R.id.imageView0002, "https://www.top1.co.id/produk/detail/POWER-COOLANT");
+        initializeImageView(R.id.imageView0004, "https://www.top1.co.id/produk/detail/ULTIMATE-COOLANT");
+        initializeImageView(R.id.imageView00002, "https://www.top1.co.id/produk/detail/BRAKE-FLUID-DOT-3");
+        initializeImageView(R.id.imageView00004, "https://www.top1.co.id/produk/detail/BRAKE-FLUID-DOT-4");
 
         // Inisialisasi inputTypeOli dan konfigurasi dialog pemilihan
         EditText inputTypeOli = findViewById(R.id.inputtypeoli);
@@ -79,14 +95,30 @@ public class spareparts extends AppCompatActivity {
         // Inisialisasi tombol button1 dan button2 untuk mengatur visibilitas komponen
         Button button1 = findViewById(R.id.button1);
         Button button2 = findViewById(R.id.button2);
+        Button button3 = findViewById(R.id.button3);
+        Button button4 = findViewById(R.id.button4);
+        Button button5 = findViewById(R.id.button5);
 
         button1.setOnClickListener(v -> {
-            setVisibility(View.VISIBLE, View.GONE, View.GONE, View.GONE);
+            setVisibility(View.VISIBLE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE);
         });
 
         button2.setOnClickListener(v -> {
-            setVisibility(View.GONE, View.GONE, View.GONE, View.VISIBLE);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE, View.GONE);
         });
+
+        button3.setOnClickListener(v -> {
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE);
+        });
+
+        button4.setOnClickListener(v -> {
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE);
+        });
+
+        button5.setOnClickListener(v -> {
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE);
+        });
+
     }
 
     // Metode untuk menginisialisasi ImageView dengan URL
@@ -106,10 +138,13 @@ public class spareparts extends AppCompatActivity {
     }
 
     // Metode untuk mengatur visibilitas komponen
-    private void setVisibility(int inputTypeOliVisibility, int evolutionVisibility, int zenzationVisibility, int oliTransmisiVisibility) {
+    private void setVisibility(int inputTypeOliVisibility, int evolutionVisibility, int zenzationVisibility, int oliTransmisiVisibility, int oligardanVisibility, int airradiatorVisibility, int minyakremVisibility) {
         findViewById(R.id.inputtypeoli).setVisibility(inputTypeOliVisibility);
         findViewById(R.id.scroolviewevolution).setVisibility(evolutionVisibility);
         findViewById(R.id.scroolviewzenzation).setVisibility(zenzationVisibility);
         findViewById(R.id.olitransmisi).setVisibility(oliTransmisiVisibility);
+        findViewById(R.id.oligardan).setVisibility(oligardanVisibility);
+        findViewById(R.id.airradiator).setVisibility(airradiatorVisibility);
+        findViewById(R.id.minyakrem).setVisibility(minyakremVisibility);
     }
 }

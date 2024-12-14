@@ -1094,5 +1094,434 @@
     </ScrollView>
 
 
+    <ScrollView
+        android:id="@+id/oligardan"
+        android:visibility="gone"
+        android:layout_width="408dp"
+        android:layout_height="700dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtypeoli">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView076"
+                android:layout_width="wrap_content"
+                android:layout_height="900dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kotak12" />
+
+
+            <ImageView
+                android:id="@+id/imageView001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.085"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView068"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView002"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView001"
+                app:layout_constraintEnd_toEndOf="@+id/imageView001"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView001"
+                app:layout_constraintTop_toTopOf="@+id/imageView001"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/gardan1" />
+
+            <TextView
+                android:id="@+id/textView000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SGO 80W-90 API GL-4"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView001"
+                app:layout_constraintEnd_toEndOf="@+id/imageView001"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView001"
+                app:layout_constraintTop_toTopOf="@+id/imageView001"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+            <ImageView
+                android:id="@+id/imageView003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.905"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView068"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView004"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView003"
+                app:layout_constraintEnd_toEndOf="@+id/imageView003"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView003"
+                app:layout_constraintTop_toTopOf="@+id/imageView003"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/gardan2" />
+
+            <TextView
+                android:id="@+id/textView001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SGO 90 API GL-5"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView003"
+                app:layout_constraintEnd_toEndOf="@+id/imageView003"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView003"
+                app:layout_constraintTop_toTopOf="@+id/imageView003"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+            <ImageView
+                android:id="@+id/imageView005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.085"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView001"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView006"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView005"
+                app:layout_constraintEnd_toEndOf="@+id/imageView005"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView005"
+                app:layout_constraintTop_toTopOf="@+id/imageView005"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/gardan3" />
+
+            <TextView
+                android:id="@+id/textView003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SGO 140 API GL-5"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView005"
+                app:layout_constraintEnd_toEndOf="@+id/imageView005"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView005"
+                app:layout_constraintTop_toTopOf="@+id/imageView005"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+            <TextView
+                android:id="@+id/textView068"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Oli Gardan"
+                android:fontFamily="@font/lexend_deca"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView076" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/airradiator"
+        android:visibility="gone"
+        android:layout_width="408dp"
+        android:layout_height="700dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtypeoli">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView0076"
+                android:layout_width="wrap_content"
+                android:layout_height="900dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kotak12" />
+
+
+            <ImageView
+                android:id="@+id/imageView0001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.085"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView0068"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView0002"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView0001"
+                app:layout_constraintEnd_toEndOf="@+id/imageView0001"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView0001"
+                app:layout_constraintTop_toTopOf="@+id/imageView0001"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/air1" />
+
+            <TextView
+                android:id="@+id/textView0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POWER COOLANT"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView0001"
+                app:layout_constraintEnd_toEndOf="@+id/imageView0001"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView0001"
+                app:layout_constraintTop_toTopOf="@+id/imageView0001"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+            <ImageView
+                android:id="@+id/imageView0003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.905"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView0068"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView0004"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView0003"
+                app:layout_constraintEnd_toEndOf="@+id/imageView0003"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView0003"
+                app:layout_constraintTop_toTopOf="@+id/imageView0003"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/air2" />
+
+            <TextView
+                android:id="@+id/textView0001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ULTIMATE COOLANT"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView0003"
+                app:layout_constraintEnd_toEndOf="@+id/imageView0003"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView0003"
+                app:layout_constraintTop_toTopOf="@+id/imageView0003"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView0068"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Air Radiator"
+                android:fontFamily="@font/lexend_deca"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView0076" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/minyakrem"
+        android:visibility="gone"
+        android:layout_width="408dp"
+        android:layout_height="700dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputtypeoli">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView00076"
+                android:layout_width="wrap_content"
+                android:layout_height="900dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kotak12" />
+
+
+            <ImageView
+                android:id="@+id/imageView00001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.085"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView00068"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView00002"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView00001"
+                app:layout_constraintEnd_toEndOf="@+id/imageView00001"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView00001"
+                app:layout_constraintTop_toTopOf="@+id/imageView00001"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/minyakrem1" />
+
+            <TextView
+                android:id="@+id/textView00000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRAKE FLUID DOT 3"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView00001"
+                app:layout_constraintEnd_toEndOf="@+id/imageView00001"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView00001"
+                app:layout_constraintTop_toTopOf="@+id/imageView00001"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+            <ImageView
+                android:id="@+id/imageView00003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.905"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView00068"
+                app:srcCompat="@drawable/kotak_oli" />
+
+            <ImageView
+                android:id="@+id/imageView00004"
+                android:layout_width="108dp"
+                android:layout_height="116dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView00003"
+                app:layout_constraintEnd_toEndOf="@+id/imageView00003"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="@+id/imageView00003"
+                app:layout_constraintTop_toTopOf="@+id/imageView00003"
+                app:layout_constraintVertical_bias="0.149"
+                app:srcCompat="@drawable/minyakrem2" />
+
+            <TextView
+                android:id="@+id/textView00001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRAKE FLUID DOT 4"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView00003"
+                app:layout_constraintEnd_toEndOf="@+id/imageView00003"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="@+id/imageView00003"
+                app:layout_constraintTop_toTopOf="@+id/imageView00003"
+                app:layout_constraintVertical_bias="0.845" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView00068"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Minyak Rem"
+                android:fontFamily="@font/lexend_deca"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView00076" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
