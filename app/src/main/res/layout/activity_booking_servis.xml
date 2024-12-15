@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booking_servis"
+    android:background="@color/gray">
+
+    <ImageView
+        android:id="@+id/imageView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/booking_servis_header" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="10dp"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/back"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="745dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView77"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="wrap_content"
+                android:layout_height="1300dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kotak13" />
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="340dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView78"
+                app:srcCompat="@drawable/kotak5" />
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="204dp"
+                android:layout_height="161dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView80"
+                app:layout_constraintEnd_toEndOf="@+id/imageView80"
+                app:layout_constraintStart_toStartOf="@+id/imageView80"
+                app:layout_constraintTop_toTopOf="@+id/imageView78"
+                app:layout_constraintVertical_bias="0.12"
+                app:srcCompat="@drawable/pajerosport" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="PAJERO SPORT DAKAR ULTIMATE 4x4"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView80"
+                app:layout_constraintEnd_toEndOf="@+id/imageView80"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="@+id/imageView80"
+                app:layout_constraintTop_toTopOf="@+id/imageView80"
+                app:layout_constraintVertical_bias="0.740" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="B 1746 DEF"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView80"
+                app:layout_constraintEnd_toEndOf="@+id/imageView80"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="@+id/imageView80"
+                app:layout_constraintTop_toTopOf="@+id/imageView80"
+                app:layout_constraintVertical_bias="0.88" />
+
+            <ImageView
+                android:id="@+id/imageView82"
+                android:layout_width="370dp"
+                android:layout_height="390dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView68"
+                app:srcCompat="@drawable/kotak15" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pilih layanan yang diperlukan untuk mobil anda"
+                android:fontFamily="@font/lexend_deca"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toTopOf="@+id/imageView82" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="29dp"
+                android:background="@drawable/ripple_gray"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.094"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toBottomOf="@+id/textView70"
+                app:srcCompat="@drawable/kotak16"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="center"
+                android:text="SERVIS BERKALA"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toTopOf="@+id/imageView82" />
+
+            <EditText
+                android:id="@+id/inputodometer"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/odometer"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/lexend_deca"
+                android:hint="Masukkan jarak tempuh mobil anda"
+                android:inputType="phone"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="#555555"
+                android:textColorHint="#B0B0B0"
+                android:textSize="12.3sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView82"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.48"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toBottomOf="@+id/textView71"
+                app:layout_constraintVertical_bias="0.06"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/ripple_gray"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.091"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toBottomOf="@+id/inputodometer"
+                app:srcCompat="@drawable/kotak16"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="center"
+                android:text="PERBAIKAN UMUM"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.26"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toBottomOf="@+id/inputodometer" />
+
+            <EditText
+                android:id="@+id/inputpermintaanservis"
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:background="@drawable/input_bg"
+                android:drawablePadding="20dp"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="top"
+                android:hint="Kerusakan Mobil/Permintaan Servis\n(Opsional)"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="16dp"
+                android:textColor="#555555"
+                android:textColorHint="#B0B0B0"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView82"
+                app:layout_constraintEnd_toEndOf="@+id/imageView82"
+                app:layout_constraintHorizontal_bias="0.48"
+                app:layout_constraintStart_toStartOf="@+id/imageView82"
+                app:layout_constraintTop_toBottomOf="@+id/textView72"
+                app:layout_constraintVertical_bias="0.35" />
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView82"
+                app:srcCompat="@drawable/kotak17" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="Rp\n500.000"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView84"
+                app:layout_constraintEnd_toEndOf="@+id/imageView84"
+                app:layout_constraintHorizontal_bias="0.120"
+                app:layout_constraintStart_toStartOf="@+id/imageView84"
+                app:layout_constraintTop_toTopOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.120" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="Perkiraan Harga"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView84"
+                app:layout_constraintEnd_toEndOf="@+id/imageView84"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="@+id/imageView84"
+                app:layout_constraintTop_toTopOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.50" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="Harga di atas adalah estimasi biaya servis tanpa pekerjaan tambahan. Harga dapat berbeda, sesuai tipe mobil dan ketentuan pajak"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView84"
+                app:layout_constraintEnd_toEndOf="@+id/imageView84"
+                app:layout_constraintHorizontal_bias="0.345"
+                app:layout_constraintStart_toStartOf="@+id/imageView84"
+                app:layout_constraintTop_toTopOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.872" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView84"
+                app:layout_constraintEnd_toEndOf="@+id/imageView84"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="@+id/imageView84"
+                app:layout_constraintTop_toTopOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.15"
+                app:srcCompat="@drawable/virtualpay" />
+
+            <ImageView
+                android:id="@+id/imageView86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView84"
+                app:srcCompat="@drawable/kotak18" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="1.5 Jam"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView86"
+                app:layout_constraintEnd_toEndOf="@+id/imageView86"
+                app:layout_constraintHorizontal_bias="0.124"
+                app:layout_constraintStart_toStartOf="@+id/imageView86"
+                app:layout_constraintTop_toBottomOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_deca"
+                android:text="Estimasi Waktu Servis"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView86"
+                app:layout_constraintEnd_toEndOf="@+id/imageView86"
+                app:layout_constraintHorizontal_bias="0.169"
+                app:layout_constraintStart_toStartOf="@+id/imageView86"
+                app:layout_constraintTop_toBottomOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.75" />
+
+            <ImageView
+                android:id="@+id/imageView87"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView86"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.858"
+                app:layout_constraintStart_toStartOf="@+id/imageView86"
+                app:layout_constraintTop_toBottomOf="@+id/imageView84"
+                app:layout_constraintVertical_bias="0.5"
+                app:srcCompat="@drawable/waktu_servis" />
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView86"
+                app:srcCompat="@drawable/kotak15" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Slot waktu yang tersedia"
+                android:fontFamily="@font/lexend_deca"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="@+id/imageView88"
+                app:layout_constraintStart_toStartOf="@+id/imageView88"
+                app:layout_constraintTop_toTopOf="@+id/imageView88" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="center"
+                android:text="Pilih tanggal"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="@+id/imageView88"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="@+id/imageView88"
+                app:layout_constraintTop_toTopOf="@+id/imageView88" />
+
+            <EditText
+                android:id="@+id/inputtanggalservis"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/kalender"
+                android:drawablePadding="0.5dp"
+                android:fontFamily="@font/lexend_deca"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Tanggal Servis"
+                android:inputType="none"
+                android:paddingStart="20dp"
+                android:paddingEnd="16dp"
+                android:textColor="#555555"
+                android:textColorHint="#B0B0B0"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView88"
+                app:layout_constraintEnd_toEndOf="@+id/imageView88"
+                app:layout_constraintStart_toStartOf="@+id/imageView88"
+                app:layout_constraintTop_toTopOf="@+id/imageView88"
+                app:layout_constraintVertical_bias="0.43" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="158dp"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="center"
+                android:text="Pilih Waktu"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="@+id/imageView88"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="@+id/imageView88"
+                app:layout_constraintTop_toTopOf="@+id/imageView88" />
+
+            <EditText
+                android:id="@+id/inputjamservis"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/clock"
+                android:drawablePadding="0.5dp"
+                android:focusable="false"
+                android:fontFamily="@font/lexend_deca"
+                android:gravity="center"
+                android:hint="Waktu Servis"
+                android:inputType="none"
+                android:paddingStart="20dp"
+                android:paddingEnd="16dp"
+                android:textColor="#555555"
+                android:textColorHint="#B0B0B0"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView88"
+                app:layout_constraintEnd_toEndOf="@+id/imageView88"
+                app:layout_constraintStart_toStartOf="@+id/imageView88"
+                app:layout_constraintTop_toTopOf="@+id/imageView88"
+                app:layout_constraintVertical_bias="0.89" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:background="@drawable/button_kirim_red"
+                android:layout_marginTop="35dp"
+                android:text="Pesan Sekarang"
+                android:fontFamily="@font/lexend_deca"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,10 +17,13 @@ import android.widget.TextView;
 
 public class spareparts extends AppCompatActivity {
 
+    Button button1, button2, button3, button4, button5, button6, button7, button8;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spareparts);
+
 
         // Inisialisasi tombol imageButton7 dan event listener navigasi ke home_page
         ImageButton imageButton7 = findViewById(R.id.imageButton7);
@@ -40,6 +43,15 @@ public class spareparts extends AppCompatActivity {
 
         TextView textView00068 = findViewById(R.id.textView00068);
         textView00068.setText(Html.fromHtml("<u>Minyak Rem</u>"));
+
+        TextView textView000068 = findViewById(R.id.textView000068);
+        textView000068.setText(Html.fromHtml("<u>Busi</u>"));
+
+        TextView textView0000068 = findViewById(R.id.textView0000068);
+        textView0000068.setText(Html.fromHtml("<u>Filter Oli</u>"));
+
+        TextView textView00000068 = findViewById(R.id.textView00000068);
+        textView00000068.setText(Html.fromHtml("<u>Car Care</u>"));
 
         // Event listener untuk membuka URL pada setiap ImageView
         initializeImageView(R.id.imageView75, "https://www.top1.co.id/produk/detail/EVOLUTION-5W-30-API-SP");
@@ -68,6 +80,11 @@ public class spareparts extends AppCompatActivity {
         initializeImageView(R.id.imageView0004, "https://www.top1.co.id/produk/detail/ULTIMATE-COOLANT");
         initializeImageView(R.id.imageView00002, "https://www.top1.co.id/produk/detail/BRAKE-FLUID-DOT-3");
         initializeImageView(R.id.imageView00004, "https://www.top1.co.id/produk/detail/BRAKE-FLUID-DOT-4");
+        initializeImageView(R.id.imageView000002, "https://www.top1.co.id/produk/detail/DURATION-SPARK-PLUG-ULTRA-IRIDIUM");
+        initializeImageView(R.id.imageView000004, "https://www.top1.co.id/produk/detail/DURATION-SPARK-PLUG-RACING");
+        initializeImageView(R.id.imageView0000002, "https://www.top1.co.id/produk/detail/DURATION-OIL-FILTER");
+        initializeImageView(R.id.imageView0000004, "https://www.top1.co.id/produk/detail/TOP-1-OIL-FILTER");
+        initializeImageView(R.id.imageView00000002, "https://www.top1.co.id/produk/detail/INTERIOR-PROTECTANT");
 
         // Inisialisasi inputTypeOli dan konfigurasi dialog pemilihan
         EditText inputTypeOli = findViewById(R.id.inputtypeoli);
@@ -93,30 +110,62 @@ public class spareparts extends AppCompatActivity {
         });
 
         // Inisialisasi tombol button1 dan button2 untuk mengatur visibilitas komponen
-        Button button1 = findViewById(R.id.button1);
-        Button button2 = findViewById(R.id.button2);
-        Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
-        Button button5 = findViewById(R.id.button5);
+        button1 = findViewById(R.id.button1);
+        button2 = findViewById(R.id.button2);
+        button3 = findViewById(R.id.button3);
+        button4 = findViewById(R.id.button4);
+        button5 = findViewById(R.id.button5);
+        button6 = findViewById(R.id.button6);
+        button7 = findViewById(R.id.button7);
+        button8 = findViewById(R.id.button8);
 
         button1.setOnClickListener(v -> {
-            setVisibility(View.VISIBLE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE);
+            resetAllButtonBackgrounds(button1);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.VISIBLE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE);
         });
 
         button2.setOnClickListener(v -> {
-            setVisibility(View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE, View.GONE);
+            resetAllButtonBackgrounds(button2);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE);
         });
 
         button3.setOnClickListener(v -> {
-            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE);
+            resetAllButtonBackgrounds(button3);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE);
         });
 
         button4.setOnClickListener(v -> {
-            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE);
+            resetAllButtonBackgrounds(button4);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE, View.GONE, View.GONE);
         });
 
         button5.setOnClickListener(v -> {
-            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE);
+            resetAllButtonBackgrounds(button5);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE, View.GONE);
+        });
+
+        button6.setOnClickListener(v -> {
+            resetAllButtonBackgrounds(button6);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE, View.GONE);
+        });
+
+        button7.setOnClickListener(v -> {
+            resetAllButtonBackgrounds(button7);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE, View.GONE);
+
+        });
+
+        button8.setOnClickListener(v -> {
+            resetAllButtonBackgrounds(button8);
+            v.setBackgroundResource(R.drawable.button_spareparts1);
+            setVisibility(View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.GONE, View.VISIBLE);
         });
 
     }
@@ -130,15 +179,30 @@ public class spareparts extends AppCompatActivity {
         });
     }
 
+    private void resetAllButtonBackgrounds(Button buttonToSkip) {
+        if (button1 != null && button1 != buttonToSkip) button1.setBackgroundResource(R.drawable.button_spareparts);
+        if (button2 != null && button2 != buttonToSkip) button2.setBackgroundResource(R.drawable.button_spareparts);
+        if (button3 != null && button3 != buttonToSkip) button3.setBackgroundResource(R.drawable.button_spareparts);
+        if (button4 != null && button4 != buttonToSkip) button4.setBackgroundResource(R.drawable.button_spareparts);
+        if (button5 != null && button5 != buttonToSkip) button5.setBackgroundResource(R.drawable.button_spareparts);
+        if (button6 != null && button6 != buttonToSkip) button6.setBackgroundResource(R.drawable.button_spareparts);
+        if (button7 != null && button7 != buttonToSkip) button7.setBackgroundResource(R.drawable.button_spareparts);
+        if (button8 != null && button8 != buttonToSkip) button8.setBackgroundResource(R.drawable.button_spareparts);
+    }
+
+
+
     // Metode untuk mengatur visibilitas ScrollView berdasarkan pilihan
     private void setScrollViewVisibility(int selectedIndex) {
         findViewById(R.id.scroolviewevolution).setVisibility(selectedIndex == 0 ? View.VISIBLE : View.GONE);
         findViewById(R.id.scroolviewzenzation).setVisibility(selectedIndex == 1 ? View.VISIBLE : View.GONE);
         findViewById(R.id.scroolviewhpsport).setVisibility(selectedIndex == 2 ? View.VISIBLE : View.GONE);
+        resetAllButtonBackgrounds(null);
     }
 
+
     // Metode untuk mengatur visibilitas komponen
-    private void setVisibility(int inputTypeOliVisibility, int evolutionVisibility, int zenzationVisibility, int oliTransmisiVisibility, int oligardanVisibility, int airradiatorVisibility, int minyakremVisibility) {
+    private void setVisibility(int inputTypeOliVisibility, int evolutionVisibility, int zenzationVisibility, int oliTransmisiVisibility, int oligardanVisibility, int airradiatorVisibility, int minyakremVisibility, int busiVisibility, int filteroliVisibility, int carcareVisibility) {
         findViewById(R.id.inputtypeoli).setVisibility(inputTypeOliVisibility);
         findViewById(R.id.scroolviewevolution).setVisibility(evolutionVisibility);
         findViewById(R.id.scroolviewzenzation).setVisibility(zenzationVisibility);
@@ -146,5 +210,9 @@ public class spareparts extends AppCompatActivity {
         findViewById(R.id.oligardan).setVisibility(oligardanVisibility);
         findViewById(R.id.airradiator).setVisibility(airradiatorVisibility);
         findViewById(R.id.minyakrem).setVisibility(minyakremVisibility);
+        findViewById(R.id.busi).setVisibility(busiVisibility);
+        findViewById(R.id.filteroli).setVisibility(filteroliVisibility);
+        findViewById(R.id.carcare).setVisibility(carcareVisibility);
+
     }
 }

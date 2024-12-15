@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="390dp"
+    android:height="557dp"
+    android:viewportWidth="390"
+    android:viewportHeight="557">
+  <path
+      android:pathData="M20,0L370,0A20,20 0,0 1,390 20L390,537A20,20 0,0 1,370 557L20,557A20,20 0,0 1,0 537L0,20A20,20 0,0 1,20 0z"
+      android:fillColor="#ffffff"/>
+</vector>

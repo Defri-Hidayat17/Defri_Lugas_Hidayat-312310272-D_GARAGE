@@ -154,7 +154,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Kendaraan"
                 android:inputType="text"
@@ -189,7 +188,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Nomor VIN"
                 android:inputType="phone"
@@ -225,7 +223,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Warna Mobil"
                 android:inputType="text"
@@ -261,7 +258,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Tahun Produksi"
                 android:inputType="phone"
@@ -275,7 +271,7 @@
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView59"
-                app:layout_constraintVertical_bias="0.005" />
+                app:layout_constraintVertical_bias="0.0055" />
 
             <TextView
                 android:id="@+id/textView60"
@@ -297,7 +293,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Type Mesin"
                 android:inputType="text"
@@ -311,7 +306,7 @@
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView60"
-                app:layout_constraintVertical_bias="0.005" />
+                app:layout_constraintVertical_bias="0.006" />
 
             <TextView
                 android:id="@+id/textView61"
@@ -333,7 +328,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Type Transmisi"
                 android:inputType="text"
@@ -347,7 +341,7 @@
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView61"
-                app:layout_constraintVertical_bias="0.005" />
+                app:layout_constraintVertical_bias="0.006" />
 
 
             <TextView
@@ -370,7 +364,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Plat Nomor"
                 android:inputType="text"
@@ -384,7 +377,7 @@
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView62"
-                app:layout_constraintVertical_bias="0.005" />
+                app:layout_constraintVertical_bias="0.006" />
 
             <TextView
                 android:id="@+id/textView63"
@@ -406,7 +399,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Nama Pemilik STNK"
                 android:inputType="text"
@@ -420,7 +412,7 @@
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView63"
-                app:layout_constraintVertical_bias="0.005" />
+                app:layout_constraintVertical_bias="0.006" />
 
             <TextView
                 android:id="@+id/textView64"
@@ -442,7 +434,6 @@
                 android:layout_width="350dp"
                 android:layout_height="45dp"
                 android:background="@drawable/input_bg"
-                android:drawablePadding="10dp"
                 android:fontFamily="@font/lexend_deca"
                 android:hint="Masa Berlaku STNK"
                 android:inputType="text"
@@ -456,7 +447,7 @@
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView64"
-                app:layout_constraintVertical_bias="0.005" />
+                app:layout_constraintVertical_bias="0.006" />
 
             <Button
                 android:id="@+id/button4"
