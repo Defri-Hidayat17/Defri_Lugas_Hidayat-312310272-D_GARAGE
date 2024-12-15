@@ -22,6 +22,29 @@ public class booking_servis extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking_servis);
 
+        // Inisialisasi tombol imageButton7
+        ImageButton imageButton7 = findViewById(R.id.imageButton7);
+
+        // Tambahkan event listener untuk navigasi ke home_page
+        imageButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(booking_servis.this, home_page.class);
+                startActivity(intent);
+                finish(); // Opsional: menutup halaman saat ini
+            }
+        });
+
+        //button9
+        Button button9 = findViewById(R.id.button9);
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(booking_servis.this, booking_servis_berhasil.class);
+                startActivity(intent);
+            }
+        });
+
         // Menghubungkan EditText untuk input tanggal dan jam servis
         inputTanggalServis = findViewById(R.id.inputtanggalservis);
         inputJamServis = findViewById(R.id.inputjamservis);
@@ -103,27 +126,6 @@ public class booking_servis extends AppCompatActivity {
         // Menampilkan dialog
         timePickerDialog.show();
 
-        // Inisialisasi tombol imageButton7
-        ImageButton imageButton7 = findViewById(R.id.imageButton7);
 
-        // Tambahkan event listener untuk navigasi ke home_page
-        imageButton7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(booking_servis.this, home_page.class);
-                startActivity(intent);
-                finish(); // Opsional: menutup halaman saat ini
-            }
-        });
-
-        //button9
-        Button button9 = findViewById(R.id.button9);
-        button9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(booking_servis.this, booking_servis_berhasil.class);
-                startActivity(intent);
-            }
-        });
     }
 }
