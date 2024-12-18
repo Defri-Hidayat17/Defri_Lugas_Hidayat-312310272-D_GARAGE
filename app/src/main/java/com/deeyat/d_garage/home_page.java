@@ -105,5 +105,17 @@ public class home_page extends AppCompatActivity {
             }
         });
 
+        // Inisialisasi TextView textView18
+        ImageButton imageButton16 = findViewById(R.id.imageButton16);
+
+        // Tambahkan event listener untuk navigasi ke aktifitas_2
+        imageButton16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home_page.this, home_servis.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
