@@ -38,25 +38,25 @@
         app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:elevation="10dp"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
         android:text="Riwayat"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:elevation="10dp"
         app:layout_constraintBottom_toTopOf="@+id/inputPhone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toEndOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:layout_constraintVertical_bias="0.754" />
+        app:layout_constraintVertical_bias="0.659" />
 
     <EditText
         android:id="@+id/inputPhone"
@@ -66,7 +66,7 @@
         android:drawableLeft="@drawable/search"
         android:drawablePadding="10dp"
         android:fontFamily="@font/lexend_deca"
-        android:hint="Cari aktifitas disini"
+        android:hint="Cari riwayat disini"
         android:inputType="text"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
@@ -138,7 +138,7 @@
 
     <ScrollView
         android:layout_width="411dp"
-        android:layout_height="500dp"
+        android:layout_height="550dp"
         android:elevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
