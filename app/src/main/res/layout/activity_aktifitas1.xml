@@ -26,6 +26,7 @@
     <TextView
         android:id="@+id/textView17"
         android:layout_width="155dp"
+        android:background="@drawable/ripple_gray"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
@@ -43,8 +44,9 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="wrap_content"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/ripple_gray"
         android:elevation="10dp"
         android:fontFamily="@font/lexend_deca"
         android:gravity="center"
@@ -54,7 +56,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/searchField"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toEndOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
         app:layout_constraintVertical_bias="0.659" />
