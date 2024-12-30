@@ -1,3 +1,7 @@
+![Gambar](https://raw.githubusercontent.com/Defri-Hidayat17/Defri_Lugas_Hidayat-312310272-D_GARAGE/main/1.png)
+
+---
+
 # D'GARAGE - Aplikasi Layanan Servis Mobil
 © Deeyat - 2024 v1.0.0
 
