@@ -50,5 +50,18 @@ public class tambah_data_mobil extends AppCompatActivity {
             Intent intent = new Intent(tambah_data_mobil.this, kendaraan_saya.class);
             startActivity(intent);
         });
+
+        // Inisialisasi tombol imageButton7
+        ImageButton imageButton7 = findViewById(R.id.imageButton7);
+
+        // Tambahkan event listener untuk navigasi ke home_page
+        imageButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(tambah_data_mobil.this, tambah_mobil.class);
+                startActivity(intent);
+                finish(); // Opsional: menutup halaman saat ini
+            }
+        });
     }
 }
