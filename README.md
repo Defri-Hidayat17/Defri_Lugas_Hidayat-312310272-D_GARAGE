@@ -30,11 +30,12 @@
 5.   📛 [Nama dan Package Aplikasi](Nama-dan-Package-Aplikasi)
 6.   🎨 [Palet Warna](#Palet-Warna)
 7.   ⭕ [Logo](#Logo)
+8.   🗒️ [Kesimpulan](#Kesimpulan)
 
 
 ---
 
-### 🤖 Introduction
+## 🤖 Introduction 
 D'GARAGE adalah aplikasi mobile yang dirancang untuk mempermudah pemilik mobil dalam mengakses layanan servis secara cepat dan praktis. Kami memahami bahwa merawat kendaraan bukan hanya sekadar kebutuhan, tetapi juga bagian penting dari menjaga aset berharga Anda tetap dalam kondisi optimal. 
 
 Dengan D'GARAGE, pengguna dapat terhubung langsung dengan penyedia jasa perawatan mobil profesional yang siap menangani berbagai kebutuhan, mulai dari perawatan rutin, diagnostik, hingga perbaikan darurat.
@@ -45,21 +46,21 @@ Aplikasi ini dibuat dan dikembangkan sebagai bagian dari mata kuliah Pemograman 
 
 Aplikasi ini dibuat untuk memberikan kemudahan kepada para pengguna kendaraan roda empat dalam mengakses layanan servis mobil secara cepat, praktis, transparan dan terpercaya. 
 
-### Filosofi
+## 💡 Filosofi
 Di D'GARAGE, kami percaya bahwa merawat kendaraan seharusnya menjadi pengalaman yang mudah dan menyenangkan. Mobil bukan hanya alat transportasi, tetapi aset berharga yang memerlukan perhatian tepat waktu dan perawatan berkualitas. Filosofi kami sederhana: memberikan akses yang mudah, cepat, dan transparan kepada pemilik mobil untuk layanan servis yang terpercaya.
 
-### Latar Belakang
+## ✨ Latar Belakang
 Dalam dunia yang semakin modern dan dinamis, kebutuhan akan layanan servis kendaraan yang cepat, mudah, dan terpercaya semakin meningkat. Pemilik kendaraan sering menghadapi tantangan dalam menemukan penyedia jasa servis yang profesional dan transparan, yang dapat memberikan layanan berkualitas tanpa membuang waktu berharga.
 Di sinilah D'GARAGE hadir sebagai solusi.
 
-### Tujuan
+## 🎯 Tujuan
 Aplikasi ini dikembangkan dengan tujuan utama mempermudah akses pemilik mobil ke berbagai layanan perawatan dan perbaikan. Dari perawatan rutin, diagnostik masalah, hingga penanganan perbaikan darurat, D'GARAGE menghubungkan pengguna dengan bengkel dan teknisi berpengalaman melalui platform yang mudah digunakan.
 
-### Nama dan Package Aplikasi
+## 📛 Nama dan Package Aplikasi
 - **Nama Aplikasi** : D'GARAGE
 - **Nama Package** : `com.deeyat.d_garage`
 
-### Palet Warna
+## 🎨 Palet Warna
 Aplikasi D'GARAGE dirancang menggunakan palet warna yang memberikan kesan profesional dan user friendly
 - **Warna Utama** :
   - Hitam (#000000) : kekuatan, dan profesionalisme. Dalam dunia desain dan mode, hitam melambangkan kesederhanaan yang elegan.
@@ -70,10 +71,10 @@ Aplikasi D'GARAGE dirancang menggunakan palet warna yang memberikan kesan profes
   - Hitam (#000000) : Membuat teks terlihat jelas dan mudah dibaca.
   - Putih (#FFFFFF) : Menciptakan kontras yang nyaman.
 
-### Logo
+## ⭕ Logo
 **Konsep** : Lingkaran hitam yang dapat diartikan bahwa Bengkel kami memiliki kesan profesional dan solid. Objek mobil yang berada di tengah antara goresan merah putih yang memiliki arti Pembaruan dan pemeliharaan mobil anda secara berkala.
 
-### Kesimpulan
+## 🗒️ Kesimpulan
 **D'GARAGE** adalah aplikasi mobile yang dirancang untuk mempermudah pemilik mobil dalam mengakses layanan servis secara cepat, praktis, dan terpercaya. Dengan menghubungkan pengguna dengan bengkel dan teknisi berpengalaman, **D'GARAGE** menjawab kebutuhan akan layanan perawatan kendaraan yang efisien.
 
 ---
