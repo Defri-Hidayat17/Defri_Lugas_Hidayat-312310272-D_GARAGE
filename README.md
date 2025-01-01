@@ -11,6 +11,8 @@
 
 ## 🚨 APP FLOW VIDEO 🚨
 
+👇 Klik gambar untuk melihat video **APP FLOW**
+
 | **Splash Screen**          | **Buat Akun**            | **Lupa Password**        | **Biodata Page**         | **Kelola Akun**          | **Aktifitas & Notifikasi** |
 |----------------------------|--------------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
 | [![Thumbnail](https://drive.google.com/thumbnail?id=1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd)](https://drive.google.com/file/d/1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=10aD2YAPsXfLcDBZQbHT4ugANky3uuFgy)](https://drive.google.com/file/d/10aD2YAPsXfLcDBZQbHT4ugANky3uuFgy/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1QxctgcxpvZtbI5WFQIdudiR1iZox4kuc)](https://drive.google.com/file/d/1QxctgcxpvZtbI5WFQIdudiR1iZox4kuc/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1oFx28puNhg03f-bcfHXrdQuVTyrqkE3t)](https://drive.google.com/file/d/1oFx28puNhg03f-bcfHXrdQuVTyrqkE3t/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1_zoHG3TrguBu6n90FVYdeg2ujkcrVlff)](https://drive.google.com/file/d/1_zoHG3TrguBu6n90FVYdeg2ujkcrVlff/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1zfwXqHxUfFs8P7tl-HzNxeZpxRdYVzDg)](https://drive.google.com/file/d/1zfwXqHxUfFs8P7tl-HzNxeZpxRdYVzDg/view?usp=sharing) |
