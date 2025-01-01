@@ -9,7 +9,12 @@
 
 ---
 
-## DESIGN
+[![Video](https://drive.google.com/thumbnail?id=1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd)](https://drive.google.com/file/d/1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd/view?usp=sharing)
+
+
+
+
+## 📱 DESIGN
 
 1. 📃 [**StoryBoard - Mockup Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWYD8YIsU/iJa5ole_W6GlXIe_58tdMw/edit?utm_content=DAGWYD8YIsU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 2. 📚 [**UI Design Aplikasi D'GARAGE**](https://www.canva.com/design/DAGWweHaGdY/IvB4VpYIIy4EDe0O9Dk-ug/edit?utm_content=DAGWweHaGdY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -17,19 +22,19 @@
 
 ---
 
-## Daftar Isi
-1.   [Introduction](#Introduction)
-2.   [Filosofi](#Filosofi)
-3.   [Latar Belakang](#Latar-Belakang)
-4.   [Tujuan](#Tujuan)
-5.   [Nama dan Package Aplikasi](Nama-dan-Package-Aplikasi)
-6.   [Palet Warna](#Palet-Warna)
-7.   [Logo](#Logo)
+## 📋 Daftar Isi
+1.   🤖 [Introduction](#Introduction)
+2.   💡 [Filosofi](#Filosofi)
+3.   ✨ [Latar Belakang](#Latar-Belakang)
+4.   🎯 [Tujuan](#Tujuan)
+5.   📛 [Nama dan Package Aplikasi](Nama-dan-Package-Aplikasi)
+6.   🎨 [Palet Warna](#Palet-Warna)
+7.   ⭕ [Logo](#Logo)
 
 
 ---
 
-### Introduction
+### 🤖 Introduction
 D'GARAGE adalah aplikasi mobile yang dirancang untuk mempermudah pemilik mobil dalam mengakses layanan servis secara cepat dan praktis. Kami memahami bahwa merawat kendaraan bukan hanya sekadar kebutuhan, tetapi juga bagian penting dari menjaga aset berharga Anda tetap dalam kondisi optimal. 
 
 Dengan D'GARAGE, pengguna dapat terhubung langsung dengan penyedia jasa perawatan mobil profesional yang siap menangani berbagai kebutuhan, mulai dari perawatan rutin, diagnostik, hingga perbaikan darurat.
