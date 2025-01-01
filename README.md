@@ -89,6 +89,13 @@ Aplikasi D'GARAGE dirancang menggunakan palet warna yang memberikan kesan profes
 
 ---
 
+## © **Hak Cipta**
+
+Hak Cipta © 2024 **Defri Lugas Hidayat**. Semua hak dilindungi undang-undang.  
+Aplikasi ini dan kontennya tidak boleh disalin, didistribusikan, atau digunakan tanpa izin tertulis dari pemilik hak cipta.  
+
+---
+
 **Pembuat**        : Defri Lugas Hidayat (NIM 312310272)  
 **Mata Kuliah**    : Pemograman Mobile 1 - Android  
 **Dosen Pengampu** : Pak Donny Maulana, S.Kom., M.M.S.I.  
