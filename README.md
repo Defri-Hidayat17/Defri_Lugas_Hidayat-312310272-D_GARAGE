@@ -9,7 +9,17 @@
 
 ---
 
-[![Video](https://drive.google.com/thumbnail?id=1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd)](https://drive.google.com/file/d/1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd/view?usp=sharing)
+## 🚨 APP FLOW VIDEO 🚨
+
+| **Splash Screen**          | **Buat Akun**            | **Lupa Password**        | **Biodata Page**         | **Kelola Akun**          | **Aktifitas & Notifikasi** |
+|----------------------------|--------------------------|--------------------------|--------------------------|--------------------------|-------------------------------|
+| [![Thumbnail](https://drive.google.com/thumbnail?id=1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd)](https://drive.google.com/file/d/1TMkgWpqNmSs_s7lJyeH0rHDnv5OFtpxd/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=10aD2YAPsXfLcDBZQbHT4ugANky3uuFgy)](https://drive.google.com/file/d/10aD2YAPsXfLcDBZQbHT4ugANky3uuFgy/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1QxctgcxpvZtbI5WFQIdudiR1iZox4kuc)](https://drive.google.com/file/d/1QxctgcxpvZtbI5WFQIdudiR1iZox4kuc/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1oFx28puNhg03f-bcfHXrdQuVTyrqkE3t)](https://drive.google.com/file/d/1oFx28puNhg03f-bcfHXrdQuVTyrqkE3t/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1_zoHG3TrguBu6n90FVYdeg2ujkcrVlff)](https://drive.google.com/file/d/1_zoHG3TrguBu6n90FVYdeg2ujkcrVlff/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1zfwXqHxUfFs8P7tl-HzNxeZpxRdYVzDg)](https://drive.google.com/file/d/1zfwXqHxUfFs8P7tl-HzNxeZpxRdYVzDg/view?usp=sharing) |
+| **Tambah Mobil**           | **Lokasi Bengkel**        | **Booking Servis**        | **Home Servis**          | **Spareparts**           | **Kendaraan Saya**         |
+| [![Thumbnail](https://drive.google.com/thumbnail?id=1ZUEN-ldMJ3Q1fHKN0h6-Pn3n0TXxLRhV)](https://drive.google.com/file/d/1ZUEN-ldMJ3Q1fHKN0h6-Pn3n0TXxLRhV/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1-5cYNwW-aZRVNNi2eOXxt3afuFxC8GsD)](https://drive.google.com/file/d/1-5cYNwW-aZRVNNi2eOXxt3afuFxC8GsD/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1ZG1YeNGWqSPjZmE4PTPNcUeQcglXHejS)](https://drive.google.com/file/d/1ZG1YeNGWqSPjZmE4PTPNcUeQcglXHejS/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1jWcuD1raPZ8q3F_o_onG_c2BYMe1Upz1)](https://drive.google.com/file/d/1jWcuD1raPZ8q3F_o_onG_c2BYMe1Upz1/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1m7VPQI1aJzlFCOzxyAh5VinR2twLCFK5)](https://drive.google.com/file/d/1m7VPQI1aJzlFCOzxyAh5VinR2twLCFK5/view?usp=sharing) | [![Thumbnail](https://drive.google.com/thumbnail?id=1StLF4zjbqpyHAasy8LNjYX9pXUu0T5w5)](https://drive.google.com/file/d/1StLF4zjbqpyHAasy8LNjYX9pXUu0T5w5/view?usp=sharing) |
+
+
+
+
 
 
 
